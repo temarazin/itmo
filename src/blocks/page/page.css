@@ -1,0 +1,19 @@
+.page {
+  /* контейнер */
+  width: 100%;
+  min-width: 320px;
+  min-height: 100vh;
+  /* основные настройки страницы */
+  background: #E0F0FF;
+  /* настройки шрифта страницы */
+  font-family: 'OpenSans', Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
