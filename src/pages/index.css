@@ -1,0 +1,53 @@
+/* vendor ========================================= */
+/* normalize */
+@import url(../vendor/normalize.css);
+/* font-face: OpenSans */
+@import url(../vendor/fonts/Open_Sans/OpenSans.css);
+
+
+/* page =========================================== */
+@import url(../blocks/page/page.css);
+
+
+/* header ========================================= */
+@import url(../blocks/header/header.css);
+
+
+/* content ======================================== */
+@import url(../blocks/content/content.css);
+
+
+/* intro ========================================== */
+@import url(../blocks/intro/intro.css);
+
+
+/* lab ============================================ */
+@import url(../blocks/lab/lab.css);
+
+
+/* project ======================================== */
+@import url(../blocks/project/project.css);
+
+
+/* study ========================================== */
+@import url(../blocks/study/study.css);
+
+
+/* publication ==================================== */
+@import url(../blocks/publication/publication.css);
+
+
+/* team =========================================== */
+@import url(../blocks/team/team.css);
+
+
+/* partners ======================================= */
+@import url(../blocks/partners/partners.css);
+
+
+/* form =========================================== */
+@import url(../blocks/form/form.css);
+
+
+/* footer ========================================= */
+@import url(../blocks/footer/footer.css);
