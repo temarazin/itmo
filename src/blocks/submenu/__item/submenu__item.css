@@ -1,0 +1,8 @@
+.submenu__item {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.submenu__item:hover {
+  background: #001337;
+}

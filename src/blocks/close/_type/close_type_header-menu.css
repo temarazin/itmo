@@ -1,0 +1,12 @@
+.close_type_header-menu {
+  display: none;
+  top: calc(50% - 11px);
+  right: 21px;
+}
+
+/* @media(min-width: 425px) {
+  .close_type_header-menu {
+    top: calc(50% - 12px);
+    right: 37px;
+	}
+} */
