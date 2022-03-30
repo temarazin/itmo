@@ -45,7 +45,7 @@
 
 
 /* team =========================================== */
-@import url(../blocks/team/team.css);
+/* @import url(../blocks/team/team.css); */
 
 
 /* partners ======================================= */
@@ -64,6 +64,7 @@
 @import url(../blocks/button/button.css);
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/button/_theme/_white/button_theme_white.css);
 
 /* pin-slider */
 @import url(../blocks/pin-slider/pin-slider.css);
