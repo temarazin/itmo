@@ -146,7 +146,32 @@
       <section class="partners"></section>
 
       <!-- form -->
-      <section class="form"></section>
+      <section class="contact-us">
+        <div class="contact-us__container">
+          <h2 class="section__title">Всегда на связи</h2>
+          <p class="seciton__subtitle">По всем интересующим вас вопросам вы всегда можете обратиться по указанным телефонам, написать на почту или оставтиь свое сообщение через форму обратной связи.</p>
+          <form class="form" name="form-contact-us" action="#" method="post">
+            <label class="form__input-group">
+              <input class="form__input form__input_type_name" id="input-name" type="text" name="name" placeholder="Имя" autocomplete="off" minlength="2" required>
+              <p class="form__input-error input-name-error"></p>
+            </label>
+            <label class="form__input-group">
+              <input class="form__input form__input_type_surname" id="input-surname" type="text" name="surname" placeholder="Фамилия" autocomplete="off" minlength="2">
+              <p class="form__input-error input-surname-error"></p>
+            </label>
+            <label class="form__input-group">
+              <input class="form__input form__input_type_tel" id="input-tel" type="tel" name="tel" placeholder="Телефон" minlength="11">
+              <p class="form__input-error input-tel-error"></p>
+            </label>
+            <label class="form__input-group">
+              <input class="form__input form__input_type_email" id="input-email" type="email" name="email" placeholder="E-mail" required>
+              <p class="form__input-error input-email-error"></p>
+            </label>
+            <textarea class="form__input form__input_type_message" name="message" placeholder="Сообщение"></textarea>
+            <button class="form__button" type="submit" aria-label="Отправить">Отправить</button>
+          </form>
+        </div>
+      </section>
     </main>
 
     <!-- footer -->

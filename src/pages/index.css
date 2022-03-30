@@ -102,8 +102,31 @@
 /* partners ======================================= */
 @import url(../blocks/partners/partners.css);
 
+/* contact-us ===================================== */
+@import url(../blocks/contact-us/contact-us.css);
+/* __container */
+@import url(../blocks/contact-us/__container/contact-us__container.css);
+
 /* form =========================================== */
 @import url(../blocks/form/form.css);
+/* __input-group */
+@import url(../blocks/form/__input-group/form__input-group.css);
+/* __input */
+@Import url(../blocks/form/__input/form__input.css);
+/* __input-error */
+@import url(../blocks/form/__input-error/form__input-error.css);
+/* __input_type_name */
+@import url(../blocks/form/__input/_type/form__input_type_name.css);
+/* __input_type_surname */
+@import url(../blocks/form/__input/_type/form__input_type_surname.css);
+/* __input_type_tel */
+@import url(../blocks/form/__input/_type/form__input_type_tel.css);
+/* __input_type_email */
+@import url(../blocks/form/__input/_type/form__input_type_email.css);
+/* __input_type_message */
+@import url(../blocks/form/__input/_type/form__input_type_message.css);
+/* __button */
+@import url(../blocks/form/__button/form__button.css);
 
 /* footer ========================================= */
 @import url(../blocks/footer/footer.css);
