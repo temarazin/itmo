@@ -5,12 +5,58 @@
 @import url(../vendor/fonts/Open_Sans/OpenSans.css);
 
 
+/** close ========================================== */
+@import url(../blocks/close/close.css);
+
+
 /* page =========================================== */
 @import url(../blocks/page/page.css);
 
 
 /* header ========================================= */
 @import url(../blocks/header/header.css);
+/* __container */
+@import url(../blocks/header/__container/header__container.css);
+/* _type_menu-open */
+@import url(../blocks/header/__container/_type/header__container_type_menu-open.css);
+/* __logo */
+@import url(../blocks/header/__logo/header__logo.css);
+/* __burger */
+@import url(../blocks/header/__burger/header__burger.css);
+/* __close */
+@import url(../blocks/header/__close/header__close.css);
+/* __menu */
+@import url(../blocks/header/__menu/header__menu.css);
+
+
+/* burger ========================================= */
+@import url(../blocks/burger/burger.css);
+/* __item */
+@import url(../blocks/burger/__item/burger__item.css);
+
+
+/* menu =========================================== */
+@import url(../blocks/menu/menu.css);
+/* _open */
+@import url(../blocks/menu/_open/menu_open.css);
+/* __list */
+@import url(../blocks/menu/__list/menu__list.css);
+/* __item */
+@import url(../blocks/menu/__item/menu__item.css);
+/* __item_active */
+@import url(../blocks/menu/__item/_active/menu__item_active.css);
+/* __link */
+@import url(../blocks/menu/__link/menu__link.css);
+/* __link_type_study */
+@import url(../blocks/menu/__link/_type/menu__link_type_study.css);
+/* __sublist */
+@import url(../blocks/menu/__sublist/menu__sublist.css);
+/* __sublist_open */
+@import url(../blocks/menu/__sublist/_open/menu__sublist_open.css);
+/* __subitem */
+@import url(../blocks/menu/__subitem/menu__subitem.css);
+/* __sublink */
+@import url(../blocks/menu/__sublink/menu__sublink.css);
 
 
 /* content ======================================== */

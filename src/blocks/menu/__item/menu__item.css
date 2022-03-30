@@ -1,0 +1,5 @@
+.menu__item {
+  width: 100%;
+  transition: .2s;
+  position: relative;
+}

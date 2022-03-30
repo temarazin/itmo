@@ -1,0 +1,13 @@
+.header__close {
+  display: none;
+  position: absolute;
+  top: calc(50% - 11px);
+  right: 21px;
+}
+
+/* @media(min-width: 425px) {
+  .header__close {
+    top: calc(50% - 12px);
+    right: 37px;
+	}
+} */

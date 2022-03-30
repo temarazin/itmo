@@ -10,7 +10,33 @@
   <!-- page -->
   <div class="page">
     <!-- header -->
-    <header class="header"></header>
+    <header class="header">
+      <div class="header__container">
+        <button class="header__burger burger">
+          <span class="burger__item"></span>
+          <span class="burger__item"></span>
+          <span class="burger__item"></span>
+        </button>
+        <button class="header__close close"></button>
+        <img class="header__logo" src="<%=require('./images/logo.png')%>" alt="Логотип!">
+        <nav class="header__menu menu">
+          <ul class="menu__list">
+            <li class="menu__item"><a class="menu__link" href="#">О нас</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Лаборатория</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Проекты</a></li>
+            <li class="menu__item"><span class="menu__link menu__link_type_study">Образование</span>
+              <ul class="menu__sublist">
+                <li class="menu__subitem"><a class="menu__sublink" href="#">Магистратура</a></li>
+                <li class="menu__subitem"><a class="menu__sublink" href="#">Аспирантура</a></li>
+              </ul>
+            </li>
+            <li class="menu__item"><a class="menu__link" href="#">Публикации</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Команда</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Связаться</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
     <!-- content -->
     <main class="content">

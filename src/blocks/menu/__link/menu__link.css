@@ -1,0 +1,9 @@
+.menu__link {
+  display: inline-block;
+  width: 100%;
+  padding: 14px 0 14px 16px;
+  box-sizing: border-box;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
