@@ -1,0 +1,16 @@
+.pin-slider__title {
+  margin: 0 8px 0 0;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.35;
+  text-transform: uppercase;
+  color: #001337;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -moz-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  line-clamp: 3;
+  box-orient: vertical;
+}
