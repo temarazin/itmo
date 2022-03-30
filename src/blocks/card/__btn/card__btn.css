@@ -1,0 +1,16 @@
+.card__btn {
+  padding: 0;
+  margin: 0 auto;
+  width: 120px;
+  border: 1px solid #001337;
+  border-radius: 5px;
+  background-color: white;
+  color: #001337;
+  height: 32px;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 13.62px;
+  text-align: center;
+  transition: opacity .3s ease;
+  cursor: pointer;
+}
