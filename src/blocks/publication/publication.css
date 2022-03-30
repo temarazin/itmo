@@ -1,0 +1,8 @@
+.publication {
+  width: 288px;
+  height: 462px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 16px;
+  box-sizing: border-box;
+}
