@@ -1,0 +1,36 @@
+.close {
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+  width: 21px;
+  height: 21px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.close:after, .close:before {
+	content: '';
+	width: 100%;
+	height: 1px;
+	background: #fff;
+	position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.close:after {
+	transform: rotate(45deg);
+}
+
+.close:before {
+	transform: rotate(-45deg);
+}
+
+@media(min-width: 425px) {
+	.close {
+    width: 24px;
+    height: 24px;
+	}
+}
