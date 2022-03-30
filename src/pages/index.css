@@ -4,14 +4,11 @@
 /* font-face: OpenSans */
 @import url(../vendor/fonts/Open_Sans/OpenSans.css);
 
-
 /** close ========================================== */
 @import url(../blocks/close/close.css);
 
-
 /* page =========================================== */
 @import url(../blocks/page/page.css);
-
 
 /* header ========================================= */
 @import url(../blocks/header/header.css);
@@ -58,10 +55,9 @@
 /* __sublink */
 @import url(../blocks/menu/__sublink/menu__sublink.css);
 
-
 /* content ======================================== */
 @import url(../blocks/content/content.css);
-
+@import url(../blocks/content/__publications/content__publications.css);
 
 /* intro ========================================== */
 @import url(../blocks/intro/intro.css);
@@ -77,30 +73,37 @@
 /* lab ============================================ */
 @import url(../blocks/lab/lab.css);
 
-
 /* project ======================================== */
 @import url(../blocks/project/project.css);
-
 
 /* study ========================================== */
 @import url(../blocks/study/study.css);
 
-
 /* publication ==================================== */
+@import url(../blocks/publications/publications.css);
+@import url(../blocks/publications/__section-title/publications__section-title.css);
 @import url(../blocks/publication/publication.css);
-
+@import url(../blocks/publication/__image/publication__image.css);
+@import url(../blocks/publication/__title/publication__title.css);
+@import url(../blocks/publication/__authors/publication__authors.css);
+@import url(../blocks/publication/__text/publication__text.css);
+@import url(../blocks/publication/__read-and-share/publication__read-and-share.css);
+@import url(../blocks/publication/__read/publication__read.css);
+@import url(../blocks/publication/__share/publication__share.css);
+@import url(../blocks/publication/__read-arrow/publication__read-arrow.css);
+@import url(../blocks/share-popup/share-popup.css);
+@import url(../blocks/share-popup/__group/share-popup__group.css);
+@import url(../blocks/share-popup/__icon/share-popup__icon.css);
+@import url(../blocks/share-popup/__arrow/share-popup__arrow.css);
 
 /* team =========================================== */
 @import url(../blocks/team/team.css);
 
-
 /* partners ======================================= */
 @import url(../blocks/partners/partners.css);
 
-
 /* form =========================================== */
 @import url(../blocks/form/form.css);
-
 
 /* footer ========================================= */
 @import url(../blocks/footer/footer.css);

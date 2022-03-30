@@ -1,0 +1,9 @@
+.publication__share {
+  width: 21px;
+  height: 22px;
+  background-image: url("../../../images/ico/social/share.svg");
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}

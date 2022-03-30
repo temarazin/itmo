@@ -82,8 +82,62 @@
       <!-- study -->
       <section class="study"></section>
 
-      <!-- publication -->
-      <section class="publication"></section>
+      <!-- publications -->
+      <section class="publications content__publications">
+        <h2 class="publications__section-title section__title">Публикации</h2>
+        <article class="publication">
+          <img
+            class="publication__image"
+            src="<%=require('./images/publication/publication-1.png')%>"
+            alt="Реклама в салоне самолёта"
+          />
+          <h3 class="publication__title">
+            Topic-driven Ensemble for Online Advertising Generation
+          </h3>
+          <p class="publication__authors">
+            Egor Nevezhin, Nikolay Butakov, Maria Khodorchenko, Maxim Petrov,
+            Denis Nasonov
+          </p>
+          <p class="publication__text">
+            Online advertising is one of the most widespread ways to reach and
+            increase a target audience for those selling products. Usually
+            having a form of a banner, advertising engages users into visiting
+            a corresponding webpage. Professional generation of banners
+            requires creative and writing skills and a basi…
+          </p>
+          <div class="publication__read-and-share">
+            <a class="publication__read" href="#">
+              Читать полностью
+              <span class="publication__read-arrow"></span>
+            </a>
+            <button
+              class="publication__share"
+              type="button"
+              aria-label="Поделиться"
+            ></button>
+          </div>
+        </article>
+        <div class="share-popup">
+          <ul class="share-popup__group">
+            <li aria-label="Vkontakte">
+              <a class="share-popup__icon" href="#" target="_blank"></a>
+            </li>
+            <li aria-label="Facebook">
+              <a class="share-popup__icon" href="#" target="_blank"></a>
+            </li>
+            <li aria-label="Telegram">
+              <a class="share-popup__icon" href="#" target="_blank"></a>
+            </li>
+            <li aria-label="Instagram">
+              <a class="share-popup__icon" href="#" target="_blank"></a>
+            </li>
+            <li aria-label="Youtube">
+              <a class="share-popup__icon" href="#" target="_blank"></a>
+            </li>
+          </ul>
+          <span class="share-popup__arrow"></span>
+        </div>
+      </section>
 
       <!-- team -->
       <section class="team"></section>
@@ -98,6 +152,9 @@
     <!-- footer -->
     <footer class="footer"></footer>
   </div>
+  <template class="publication-template">
+    <!--Шаблон для карточек публикации-->>
+  </template>
 </body>
 
 </html>
