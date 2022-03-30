@@ -1,0 +1,9 @@
+.pin-slider__dot {
+  margin: 4px;
+  width: 4px;
+  height: 4px;
+  background-color: #fff;
+  list-style: none;
+  border-radius: 50%;
+  opacity: .5;
+}

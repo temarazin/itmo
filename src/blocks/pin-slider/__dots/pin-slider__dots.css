@@ -1,0 +1,6 @@
+.pin-slider__dots {
+  margin: 14px 0 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}

@@ -65,7 +65,14 @@
 
 /* intro ========================================== */
 @import url(../blocks/intro/intro.css);
-
+@import url(../blocks/intro/__inner/intro__inner.css);
+@import url(../blocks/intro/__background-image/intro__background-image.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__title/_bold/intro__title_bold.css);
+@import url(../blocks/intro/__subtitle/into__subtitle.css);
+@import url(../blocks/intro/__button/intro__button.css);
+@import url(../blocks/intro/__section-title/intro__section-title.css);
+@import url(../blocks/intro/__slider/intro__slider.css);
 
 /* lab ============================================ */
 @import url(../blocks/lab/lab.css);
@@ -97,3 +104,22 @@
 
 /* footer ========================================= */
 @import url(../blocks/footer/footer.css);
+
+
+/* elements */
+@import url(../blocks/button/button.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/button/_theme/_white/button_theme_white.css);
+
+/* pin-slider */
+@import url(../blocks/pin-slider/pin-slider.css);
+@import url(../blocks/pin-slider/__inner/pin-slider__inner.css);
+@import url(../blocks/pin-slider/__pin-icon/pin-slider__pin-icon.css);
+@import url(../blocks/pin-slider/__title/pin-slider__title.css);
+@import url(../blocks/pin-slider/__line/pin-slider__line.css);
+@import url(../blocks/pin-slider/__description/pin-slider__description.css);
+@import url(../blocks/pin-slider/__date/pin-slider__date.css);
+@import url(../blocks/pin-slider/__dots/pin-slider__dots.css);
+@import url(../blocks/pin-slider/__dot/pin-slider__dot.css);
+@import url(../blocks/pin-slider/__dot/_active/pin-slider__dot_active.css);
