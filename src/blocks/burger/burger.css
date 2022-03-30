@@ -6,10 +6,9 @@
 	width: 24px;
 	height: 24px;
 	padding: 4px 2px;
+  background: transparent;
+  border: none;
 	cursor: pointer;
-  position: absolute;
-  top: calc(50% - 12px);
-  left: 18px;
 }
 
 /* @media(min-width: 425px) {

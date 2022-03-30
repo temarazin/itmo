@@ -12,22 +12,22 @@
     <!-- header -->
     <header class="header">
       <div class="header__container">
-        <div class="burger">
+        <button class="header__burger burger">
           <span class="burger__item"></span>
           <span class="burger__item"></span>
           <span class="burger__item"></span>
-        </div>
-        <div class="close close_type_header-menu"></div>
+        </button>
+        <button class="header__close close"></button>
         <img class="header__logo" src="<%=require('./images/logo.png')%>" alt="Логотип!">
-        <nav class="menu">
+        <nav class="header__menu menu">
           <ul class="menu__list">
             <li class="menu__item"><a class="menu__link" href="#">О нас</a></li>
             <li class="menu__item"><a class="menu__link" href="#">Лаборатория</a></li>
             <li class="menu__item"><a class="menu__link" href="#">Проекты</a></li>
             <li class="menu__item"><span class="menu__link menu__link_type_study">Образование</span>
-              <ul class="submenu">
-                <li class="submenu__item"><a class="submenu__link" href="#">Магистратура</a></li>
-                <li class="submenu__item"><a class="submenu__link" href="#">Аспирантура</a></li>
+              <ul class="menu__sublist">
+                <li class="menu__subitem"><a class="menu__sublink" href="#">Магистратура</a></li>
+                <li class="menu__subitem"><a class="menu__sublink" href="#">Аспирантура</a></li>
               </ul>
             </li>
             <li class="menu__item"><a class="menu__link" href="#">Публикации</a></li>

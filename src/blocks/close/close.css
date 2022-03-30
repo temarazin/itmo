@@ -4,10 +4,10 @@
 	align-items: center;
   width: 21px;
   height: 21px;
-	position: absolute;
-	top: 0;
-	right: 0;
+  background: transparent;
+  border: none;
   cursor: pointer;
+  position: relative;
 }
 
 .close:after, .close:before {

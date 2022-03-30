@@ -7,10 +7,6 @@
 
 /** close ========================================== */
 @import url(../blocks/close/close.css);
-/* _type_header-menu */
-@import url(../blocks/close/_type/close_type_header-menu.css);
-/* _visible */
-@import url(../blocks/close/_visible/close_visible.css);
 
 
 /* page =========================================== */
@@ -25,14 +21,18 @@
 @import url(../blocks/header/__container/_type/header__container_type_menu-open.css);
 /* __logo */
 @import url(../blocks/header/__logo/header__logo.css);
+/* __burger */
+@import url(../blocks/header/__burger/header__burger.css);
+/* __close */
+@import url(../blocks/header/__close/header__close.css);
+/* __menu */
+@import url(../blocks/header/__menu/header__menu.css);
 
 
 /* burger ========================================= */
 @import url(../blocks/burger/burger.css);
 /* __item */
 @import url(../blocks/burger/__item/burger__item.css);
-/* _invisible */
-@import url(../blocks/burger/_invisible/burger_invisible.css);
 
 
 /* menu =========================================== */
@@ -43,22 +43,20 @@
 @import url(../blocks/menu/__list/menu__list.css);
 /* __item */
 @import url(../blocks/menu/__item/menu__item.css);
+/* __item_active */
+@import url(../blocks/menu/__item/_active/menu__item_active.css);
 /* __link */
 @import url(../blocks/menu/__link/menu__link.css);
-/* _type_study */
+/* __link_type_study */
 @import url(../blocks/menu/__link/_type/menu__link_type_study.css);
-/* type_study-active */
-@import url(../blocks/menu/__link/_type/menu__link_type_study-active.css);
-
-
-/* submenu ======================================== */
-@import url(../blocks/submenu/submenu.css);
-/* _open */
-@import url(../blocks/submenu/_open/submenu_open.css);
-/* __item */
-@import url(../blocks/submenu/__item/submenu__item.css);
-/* __link */
-@import url(../blocks/submenu/__link/submenu__link.css);
+/* __sublist */
+@import url(../blocks/menu/__sublist/menu__sublist.css);
+/* __sublist_open */
+@import url(../blocks/menu/__sublist/_open/menu__sublist_open.css);
+/* __subitem */
+@import url(../blocks/menu/__subitem/menu__subitem.css);
+/* __sublink */
+@import url(../blocks/menu/__sublink/menu__sublink.css);
 
 
 /* content ======================================== */
