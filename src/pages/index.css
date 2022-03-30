@@ -77,7 +77,28 @@
 
 /* study ========================================== */
 @import url(../blocks/study/study.css);
-
+/* __card */
+@import url(../blocks/study/__card/study__card.css);
+/* __img */
+@import url(../blocks/study/__img/study__img.css);
+/* __title */
+@import url(../blocks/study/__title/study__title.css);
+/* __list */
+@import url(../blocks/study/__list/study__list.css);
+/* __list-item */
+@import url(../blocks/study/__list-item/study__list-item.css);
+/* __link */
+@import url(../blocks/study/__link/study__link.css);
+/* __link_text */
+@import url(../blocks/study/__link/_text/study__link_text.css);
+/* __link_icon */
+@import url(../blocks/study/__link/_icon/study__link_icon.css);
+/* __buttons */
+@import url(../blocks/study/__buttons/study__buttons.css);
+/* __button */
+@import url(../blocks/study/__button/study__button.css);
+/* __button_active */
+@import url(../blocks/study/__button/_active/study__button_active.css);
 
 /* publication ==================================== */
 @import url(../blocks/publication/publication.css);

@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>ITMO</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ITMO</title>
 </head>
+
 <body>
   <!-- page -->
   <div class="page">
@@ -50,7 +52,51 @@
       <section class="project"></section>
 
       <!-- study -->
-      <section class="study"></section>
+      <section class="study">
+        <h2 class="section-title">Образование</h2>
+
+        <p class="section-subtitle">
+          В образовательной деятельности НЦКР активно использует существующую в Университете ИТМО инфраструктуру и опыт
+          реализации сетевых форм обучения, опираясь на вузы-диссеминаторы (ННГУ, ДВФУ, ФГБОУ ВО «МГТУ «СТАНКИН»,
+          НовГУ), а также профильную компанию ООО «НЦЭО» в области электронного и дистанционного образования.
+          Реализуются образовательные программы различных форматов.
+        </p>
+
+        <div class="study__card">
+          <picture>
+            <source srcset="<%=require('./images/study/magistr.png')%>" media="(min-width: 768px)">
+            <img class="study__img" src="<%=require('./images/study/magistr_m.png')%>" alt="асперанты">
+          </picture>
+
+
+          <div class="study__content">
+            <h3 class="study__title">Образовательные программы аспирантуры в области МО и КТ</h3>
+
+            <ul class="study__list">
+              <li class="study__list-item">Прикладные технологии искусственного интеллекта;</li>
+              <li class="study__list-item">Машинное обучение и искусственный интеллект;</li>
+              <li class="study__list-item">Биометрические информационные системы;</li>
+              <li class="study__list-item">Речевые информационные системы;</li>
+              <li class="study__list-item">Когнитивные вычисления и квантовый интеллект;</li>
+              <li class="study__list-item">Большие данные и экстренные вычисления;</li>
+              <li class="study__list-item">Семантические системы и инженерия знаний;</li>
+              <li class="study__list-item">Технологии разработки компьютерных игр</li>
+            </ul>
+
+            <a href="#" target="_blank" class="study__link">
+              <span class="study__link_text">Подробнее</span>
+
+              <svg class="study__link_icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                <path stroke="#000D26" stroke-linecap="round" d="M3 12h18m-6 6 6-6-6-6" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="study__buttons">
+          <div class="study__button">Аспирантура</div>
+          <div class="study__button study__button_active">Магистратура</div>
+        </div>
+      </section>
 
       <!-- publication -->
       <section class="publication"></section>
@@ -69,4 +115,5 @@
     <footer class="footer"></footer>
   </div>
 </body>
+
 </html>
