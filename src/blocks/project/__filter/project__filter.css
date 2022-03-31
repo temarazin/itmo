@@ -1,0 +1,13 @@
+/* Project */
+.project__filter {
+  margin: 20px auto;
+  padding: 0;
+
+  width: 288px;
+  height: 340px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}

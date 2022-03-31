@@ -1,0 +1,18 @@
+/* Project */
+.project__filter-btn {
+  margin: 0;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  background-image: url(../../../images/ico/chevron-down.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
+  border: none;
+  color: #fff;
+}
+
+.project__filter-btn:hover {
+  cursor: pointer;
+}

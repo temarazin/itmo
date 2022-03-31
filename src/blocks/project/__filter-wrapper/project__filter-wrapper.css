@@ -1,0 +1,15 @@
+/* Project */
+.project__filter-wrapper {
+  margin: 0 auto;
+  padding: 0;
+
+  width: 288px;
+  height: 44px;
+  border-bottom: 2px solid #009FAC;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+

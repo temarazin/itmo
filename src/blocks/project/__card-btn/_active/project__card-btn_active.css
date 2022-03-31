@@ -1,0 +1,8 @@
+/* Project */
+.project__card-btn_active {
+  background-color: #009FAC;
+  background-image: url(../../../../images/ico/arrow-left.svg);
+
+  bottom: 16px;
+  right: 16px;
+}

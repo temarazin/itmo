@@ -1,0 +1,11 @@
+/* Project */
+.project__filter-subtitle {
+  margin: 0;
+
+  color: #FFF;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.36;
+  text-transform: uppercase;
+}

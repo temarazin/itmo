@@ -27,6 +27,27 @@
 
 /* project ======================================== */
 @import url(../blocks/project/project.css);
+@import url(../blocks/project/__title/project__title.css);
+@import url(../blocks/project/__filter/project__filter.css);
+@import url(../blocks/project/__filter/_active/project__filter_active.css);
+@import url(../blocks/project/__filter-wrapper/project__filter-wrapper.css);
+@import url(../blocks/project/__filter-wrapper/_active/project__filter-wrapper_active.css);
+@import url(../blocks/project/__filter-subtitle/project__filter-subtitle.css);
+@import url(../blocks/project/__filter-subtitle/_active/project__filter-subtitle_active.css);
+@import url(../blocks/project/__filter-btn/project__filter-btn.css);
+@import url(../blocks/project/__filter-btn/_active/project__filter-btn_active.css);
+@import url(../blocks/project/__filter-menu/project__filter-menu.css);
+@import url(../blocks/project/__filter-item/project__filter-item.css);
+@import url(../blocks/project/__filter-text/project__filter-text.css);
+@import url(../blocks/project/__cards/project__cards.css);
+@import url(../blocks/project/__card/project__card.css);
+@import url(../blocks/project/__card/_active/project__card_active.css);
+@import url(../blocks/project/__card-logo/project__card-logo.css);
+@import url(../blocks/project/__card-logo/_active/project__card-logo_active.css);
+@import url(../blocks/project/__card-text/project__card-text.css);
+@import url(../blocks/project/__card-text/_active/project__card-text_active.css);
+@import url(../blocks/project/__card-btn/project__card-btn.css);
+@import url(../blocks/project/__card-btn/_active/project__card-btn_active.css);
 
 
 /* study ========================================== */

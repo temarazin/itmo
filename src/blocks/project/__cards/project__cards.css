@@ -1,0 +1,15 @@
+/* Project */
+.project__cards {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 288px;
+  width: 100%;
+  min-height: 268px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px
+}
