@@ -3,3 +3,7 @@
   align-items: center;
   text-decoration: none;
 }
+
+.study__link:hover {
+  text-decoration: underline;
+}
