@@ -43,7 +43,35 @@
     <!-- content -->
     <main class="content">
       <!-- intro -->
-      <section class="intro"></section>
+      <section class="intro">
+        <div class="intro__background-image"></div>
+        <div class="intro__inner">
+          <h1 class="intro__title"><span class="intro__title_bold">Когнитивные технологии,</span> машинное обучение</h1>
+          <p class="into__subtitle">Системы прикладного искусственного интеллекта</p>
+          <button class="button intro__button button_theme_white" href="#">Наши проекты</button>
+          <h2 class="section-title intro__section-title">Несколько слов о нас</h2>
+          <p class="section-subtitle">Национальный центр когнитивных разработок – центр национальной технологической
+            инициативы (НТИ), получивший государственную поддержку по направлению «Технологии машинного обучения
+            и когнитивные технологии».</p>
+          <div class="intro__slider pin-slider">
+            <article class="pin-slider__inner">
+              <div class="pin-slider__pin-icon"></div>
+              <p class="pin-slider__date">Понедельник, 5 июля 2021г</p>
+              <h3 class="pin-slider__title">Авторы робота-музыканта Роберта Роботецкого признаны лучшими новичками</h3>
+              <div class="pin-slider__line"></div>
+              <p class="pin-slider__description">Команда ИТМО стала лучшей на международном финале RoboCup-2021. Успех
+                ребятам принес Роберт Роботецкий — робот-виртуоз, исполнивший знаменитый французский романс «Под небом
+                Парижа». В подготовке команды участвовали сотрудники лаборатории. </p>
+            </article>
+            <ul class="pin-slider__dots">
+              <li class="pin-slider__dot pin-slider__dot_active"></li>
+              <li class="pin-slider__dot"></li>
+              <li class="pin-slider__dot"></li>
+              <li class="pin-slider__dot"></li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
       <!-- lab -->
       <section class="lab"></section>
@@ -98,8 +126,62 @@
         </div>
       </section>
 
-      <!-- publication -->
-      <section class="publication"></section>
+      <!-- publications -->
+      <section class="publications content__publications">
+        <h2 class="section-title publications__section-title">Публикации</h2>
+        <article class="publication">
+          <img
+            class="publication__image"
+            src="<%=require('./images/publication/publication-1.png')%>"
+            alt="Реклама в салоне самолёта"
+          />
+          <h3 class="publication__title">
+            Topic-driven Ensemble for Online Advertising Generation
+          </h3>
+          <p class="publication__authors">
+            Egor Nevezhin, Nikolay Butakov, Maria Khodorchenko, Maxim Petrov,
+            Denis Nasonov
+          </p>
+          <p class="publication__text">
+            Online advertising is one of the most widespread ways to reach and
+            increase a target audience for those selling products. Usually
+            having a form of a banner, advertising engages users into visiting
+            a corresponding webpage. Professional generation of banners
+            requires creative and writing skills and a basi…
+          </p>
+          <div class="publication__read-and-share">
+            <a class="publication__read" href="#">
+              Читать полностью
+              <span class="publication__read-arrow"></span>
+            </a>
+            <button
+              class="publication__share"
+              type="button"
+              aria-label="Поделиться"
+            ></button>
+          </div>
+        </article>
+        <div class="share-popup">
+          <ul class="share-popup__group">
+            <li aria-label="Vkontakte">
+              <a class="share-popup__icon" href="#" target="_blank"></a>
+            </li>
+            <li aria-label="Facebook">
+              <a class="share-popup__icon" href="#" target="_blank"></a>
+            </li>
+            <li aria-label="Telegram">
+              <a class="share-popup__icon" href="#" target="_blank"></a>
+            </li>
+            <li aria-label="Instagram">
+              <a class="share-popup__icon" href="#" target="_blank"></a>
+            </li>
+            <li aria-label="Youtube">
+              <a class="share-popup__icon" href="#" target="_blank"></a>
+            </li>
+          </ul>
+          <span class="share-popup__arrow"></span>
+        </div>
+      </section>
 
       <!-- team -->
       <section class="team"></section>
@@ -108,12 +190,40 @@
       <section class="partners"></section>
 
       <!-- form -->
-      <section class="form"></section>
+      <section class="contact-us">
+        <div class="contact-us__container">
+          <h2 class="section__title">Всегда на связи</h2>
+          <p class="seciton__subtitle">По всем интересующим вас вопросам вы всегда можете обратиться по указанным телефонам, написать на почту или оставтиь свое сообщение через форму обратной связи.</p>
+          <form class="form" name="form-contact-us" action="#" method="post">
+            <label class="form__input-group">
+              <input class="form__input form__input_type_name" id="input-name" type="text" name="name" placeholder="Имя" autocomplete="off" minlength="2" required>
+              <p class="form__input-error input-name-error"></p>
+            </label>
+            <label class="form__input-group">
+              <input class="form__input form__input_type_surname" id="input-surname" type="text" name="surname" placeholder="Фамилия" autocomplete="off" minlength="2">
+              <p class="form__input-error input-surname-error"></p>
+            </label>
+            <label class="form__input-group">
+              <input class="form__input form__input_type_tel" id="input-tel" type="tel" name="tel" placeholder="Телефон" minlength="11">
+              <p class="form__input-error input-tel-error"></p>
+            </label>
+            <label class="form__input-group">
+              <input class="form__input form__input_type_email" id="input-email" type="email" name="email" placeholder="E-mail" required>
+              <p class="form__input-error input-email-error"></p>
+            </label>
+            <textarea class="form__input form__input_type_message" name="message" placeholder="Сообщение"></textarea>
+            <button class="form__button" type="submit" aria-label="Отправить">Отправить</button>
+          </form>
+        </div>
+      </section>
     </main>
 
     <!-- footer -->
     <footer class="footer"></footer>
   </div>
+  <template class="publication-template">
+    <!--Шаблон для карточек публикации-->>
+  </template>
 </body>
 
 </html>
