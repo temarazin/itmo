@@ -2,5 +2,8 @@
   margin: 0;
   padding: 0;
   color: #000d26;
+}
+
+.publications .publications__section-title {
   margin-bottom: 20px;
 }
