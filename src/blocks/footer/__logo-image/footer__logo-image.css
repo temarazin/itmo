@@ -1,0 +1,6 @@
+.footer__logo-image {
+  width: 98px;
+  height: 33px;
+  object-fit: contain;
+  object-position: left;
+}
