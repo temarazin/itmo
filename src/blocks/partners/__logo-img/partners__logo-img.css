@@ -1,0 +1,4 @@
+.partners__logo-img {
+  width: 100%;
+  width: clamp(46px, 80px, 150px);
+}

@@ -147,6 +147,9 @@
 
 /* partners ======================================= */
 @import url(../blocks/partners/partners.css);
+@import url(../blocks/partners/__logos/partners__logos.css);
+@import url(../blocks/partners/__logo/partners__logo.css);
+@import url(../blocks/partners/__logo-img/partners__logo-img.css);
 
 /* contact-us ===================================== */
 @import url(../blocks/contact-us/contact-us.css);

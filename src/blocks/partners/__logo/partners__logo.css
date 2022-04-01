@@ -1,0 +1,10 @@
+.partners__logo {
+  max-height: 30px;
+  max-width: 150px;
+  /* min-width: 46px; */
+  /* width: fit-content; */
+  display: flex;
+  justify-content: center;
+  /* height: clamp(20px, auto, 30px); */
+
+}
