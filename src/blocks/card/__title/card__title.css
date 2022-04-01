@@ -1,0 +1,8 @@
+.card__title {
+  font-size: 10px;
+  line-height: 13.62px;
+  font-weight: 600;
+  max-width: 121px;
+  text-align: center;
+  margin: 10px auto 16px;
+}
