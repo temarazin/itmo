@@ -4,19 +4,3 @@
   margin: auto;
   background-size: contain;
 }
-
-.card__icon.card__icon_image-project {
-  background-image: url(../../../images/lab/project.svg);
-}
-
-.card__icon.card__icon_image-brain {
-  background-image: url(../../../images/lab/brain.svg);
-}
-
-.card__icon.card__icon_image-micro {
-  background-image: url(../../../images/lab/micro.svg);
-}
-
-.card__icon.card__icon_image-robot {
-  background-image: url(../../../images/lab/robot.svg);
-}

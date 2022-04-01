@@ -1,0 +1,17 @@
+.intro__background-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url(../../../images/background.png);
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-position: 90% top;
+}
+
+@media screen and (min-width: 769px) {
+  .intro__background-image{
+    transform: scale(-1, 1);
+  }
+}

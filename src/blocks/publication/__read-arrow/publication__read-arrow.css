@@ -1,0 +1,6 @@
+.publication__read-arrow {
+  width: 24px;
+  height: 24px;
+  background-image: url("../../../images/ico/arrow-right.svg");
+  margin-left: 8px;
+}

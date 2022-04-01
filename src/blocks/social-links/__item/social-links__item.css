@@ -1,0 +1,7 @@
+.social-links__item {
+  margin-left: 9px;
+}
+
+.social-links__item:first-child {
+  margin-left: 0;
+}

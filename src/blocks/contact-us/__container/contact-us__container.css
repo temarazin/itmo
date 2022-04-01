@@ -1,0 +1,6 @@
+.contact-us__container {
+  display: grid;
+  gap: 23px;
+  box-sizing: border-box;
+  padding: 40px 16px;
+}

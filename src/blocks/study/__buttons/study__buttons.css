@@ -1,0 +1,11 @@
+.study__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border: 1px solid #e0f0ff;
+  border-radius: 5px;
+  max-width: 288px;
+  width: 100%;
+  box-sizing: border-box;
+}

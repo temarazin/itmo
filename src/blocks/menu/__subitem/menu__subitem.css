@@ -1,0 +1,8 @@
+.menu__subitem {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.menu__subitem:hover {
+  background: #001337;
+}

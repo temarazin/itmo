@@ -1,0 +1,15 @@
+.header__container_type_menu-open {
+  justify-content: start;
+}
+
+.header__container_type_menu-open .header__burger {
+  display: none;
+}
+
+.header__container_type_menu-open .header__close {
+  display: flex;
+}
+
+.header__container_type_menu-open .header__menu {
+  left: 0;
+}

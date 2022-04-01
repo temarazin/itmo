@@ -1,0 +1,6 @@
+.footer__contacts-city {
+  margin: 0 0 8px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.36;
+}

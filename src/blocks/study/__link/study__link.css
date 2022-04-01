@@ -1,0 +1,9 @@
+.study__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.study__link:hover {
+  text-decoration: underline;
+}
