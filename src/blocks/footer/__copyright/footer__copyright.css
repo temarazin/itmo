@@ -1,0 +1,7 @@
+.footer__copyright {
+  margin: 0;
+  grid-area: copyright;
+  font-size: 12px;
+  line-height: 1.33;
+  white-space: pre-line;
+}

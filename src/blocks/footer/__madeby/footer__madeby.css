@@ -1,0 +1,9 @@
+.footer__madeby {
+  grid-area: madeby;
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto 0 0;
+  font-size: 12px;
+  line-height: 1.33;
+  opacity: 0.5;
+}

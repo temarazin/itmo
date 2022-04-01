@@ -1,0 +1,12 @@
+.footer__contacts-phone {
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 1.67;
+  letter-spacing: 0.1px;
+  transition: 0.3s;
+}
+
+.footer__contacts-phone:hover {
+  opacity: 0.7;
+}
