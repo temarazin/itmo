@@ -1,0 +1,11 @@
+.card-person__position {
+  width: 100%;
+  margin: 4px 0 0;
+  font-size: 10px;
+  font-style: italic;
+  line-height: 1.4;
+  color: #009FAC;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

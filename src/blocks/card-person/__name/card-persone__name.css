@@ -1,0 +1,12 @@
+.card-person__name {
+  width: 100%;
+  max-width: min-content;
+  margin: 0 auto;
+  color: #000D26;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: .05px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
