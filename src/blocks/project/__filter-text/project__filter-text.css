@@ -1,8 +1,7 @@
 /* Project */
 .project__filter-text {
-  font-size: 14px;
-  font-weight: 400;
-  font-style: normal;
+  padding: 10px 16px;
+
   line-height: 1.71;
   letter-spacing: .1px;
   color: #fff;

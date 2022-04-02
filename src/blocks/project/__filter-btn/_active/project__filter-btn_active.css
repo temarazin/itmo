@@ -1,4 +1,4 @@
 /* Project */
 .project__filter-btn_active {
-  margin-right: 16px;
+  transform: rotate(-180deg);
 }
