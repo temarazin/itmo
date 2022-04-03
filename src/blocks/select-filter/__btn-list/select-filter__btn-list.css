@@ -1,5 +1,5 @@
-/* Project */
-.project__filter-btn {
+/* Select-filter */
+.select-filter__btn-list {
   margin: 0 0 6px;
   padding: 0;
   width: 24px;
@@ -15,6 +15,6 @@
   transform: rotate(0);
 }
 
-.project__filter-btn:hover {
+.select-filter__btn-list:hover {
   cursor: pointer;
 }

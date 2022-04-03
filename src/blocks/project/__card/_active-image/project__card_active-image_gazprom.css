@@ -1,11 +1,8 @@
 /* Project */
 .project__card_active-image_gazprom {
-  width: 288px;
   background-color: #E0F0FF;
   background-image: url(../../../../images/projects/project-gazprom.png);
   background-repeat: no-repeat;
   background-position: bottom 0 right 0;
   background-size: 140px 130px;
-
-  flex-direction: row;
 }
