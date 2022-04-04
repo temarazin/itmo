@@ -7,4 +7,5 @@
   box-sizing: border-box;
   margin: 0 auto;
   text-align: start;
+  position: relative;
 }
