@@ -64,6 +64,7 @@
 /* content ======================================== */
 @import url(../blocks/content/content.css);
 @import url(../blocks/content/__publications/content__publications.css);
+@import url(../blocks/content/__team/content__team.css);
 
 /* intro ========================================== */
 @import url(../blocks/intro/intro.css);
