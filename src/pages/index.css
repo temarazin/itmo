@@ -28,6 +28,8 @@
 /* project ======================================== */
 @import url(../blocks/project/project.css);
 @import url(../blocks/project/__container/project__container.css);
+@import url(../blocks/project/__title/project__title.css);
+@import url(../blocks/project/__filter/project__filter.css);
 @import url(../blocks/select-filter/select-filter.css);
 @import url(../blocks/select-filter/__wrapper/select-filter__wrapper.css);
 @import url(../blocks/select-filter/__wrapper/_active/select-filter__wrapper_active.css);
