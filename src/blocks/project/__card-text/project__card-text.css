@@ -1,0 +1,15 @@
+/* Project */
+.project__card-text {
+  margin: 8px 10px 30px;
+  width: 120px;
+  max-height: 56px;
+  overflow: hidden;
+
+
+  font-size: 10px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: .1px;
+  color: #FFF;
+}

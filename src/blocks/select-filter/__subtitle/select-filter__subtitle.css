@@ -1,0 +1,9 @@
+/* Select-filter */
+.select-filter__subtitle {
+  margin: 0 0 10px;
+
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.36;
+  text-transform: uppercase;
+}

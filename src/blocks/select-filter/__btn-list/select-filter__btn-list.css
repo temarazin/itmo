@@ -1,0 +1,20 @@
+/* Select-filter */
+.select-filter__btn-list {
+  margin: 0 0 6px;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  background-image: url(../../../images/ico/chevron-down.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
+  border: none;
+  color: #fff;
+  transition: transform .3s linear;
+  transform: rotate(0);
+}
+
+.select-filter__btn-list:hover {
+  cursor: pointer;
+}

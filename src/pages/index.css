@@ -99,6 +99,25 @@
 
 /* project ======================================== */
 @import url(../blocks/project/project.css);
+@import url(../blocks/project/__container/project__container.css);
+@import url(../blocks/project/__title/project__title.css);
+@import url(../blocks/project/__filter/project__filter.css);
+@import url(../blocks/select-filter/select-filter.css);
+@import url(../blocks/select-filter/__wrapper/select-filter__wrapper.css);
+@import url(../blocks/select-filter/__wrapper/_active/select-filter__wrapper_active.css);
+@import url(../blocks/select-filter/__subtitle/select-filter__subtitle.css);
+@import url(../blocks/select-filter/__btn-list/select-filter__btn-list.css);
+@import url(../blocks/select-filter/__menu/select-filter__menu.css);
+@import url(../blocks/select-filter/__item/select-filter__item.css);
+@import url(../blocks/select-filter/__text/select-filter__text.css);
+@import url(../blocks/project/__cards/project__cards.css);
+@import url(../blocks/project/__card/project__card.css);
+@import url(../blocks/project/__card/_active/project__card_active.css);
+@import url(../blocks/project/__card/_active-image/project__card_active-image_gazprom.css);
+@import url(../blocks/project/__card/_active-image/project__card_active-image_sberbank.css);
+@import url(../blocks/project/__card-logo/project__card-logo.css);
+@import url(../blocks/project/__card-text/project__card-text.css);
+@import url(../blocks/project/__card-btn/project__card-btn.css);
 
 /* study ========================================== */
 @import url(../blocks/study/study.css);

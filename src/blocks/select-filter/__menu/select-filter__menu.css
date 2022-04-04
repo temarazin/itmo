@@ -1,0 +1,9 @@
+/* Select-filter */
+.select-filter__menu {
+  margin: 0;
+  padding: 0;
+  background: #000D26;
+
+  min-height: 296px;
+  display: none;
+}
