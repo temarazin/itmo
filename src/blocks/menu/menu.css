@@ -1,0 +1,6 @@
+.menu {
+  opacity: 0;
+  transition-property: opacity, left;
+  transition-duration: .2s, .1s;
+  transition-timing-function: ease, ease;
+}
