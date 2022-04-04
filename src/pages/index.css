@@ -165,6 +165,7 @@
 
 /* partners ======================================= */
 @import url(../blocks/partners/partners.css);
+@import url(../blocks/partners/__section-title/partners__section-title.css);
 @import url(../blocks/partners/__logos/partners__logos.css);
 @import url(../blocks/partners/__logo/partners__logo.css);
 @import url(../blocks/partners/__logo-img/partners__logo-img.css);
