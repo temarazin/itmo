@@ -3,3 +3,7 @@
   transition: .2s;
   position: relative;
 }
+
+.menu__item:hover {
+  background-color: #001337;
+}
