@@ -28,6 +28,7 @@
 @import url(../blocks/header/__burger/header__burger.css);
 /* __close */
 @import url(../blocks/header/__close/header__close.css);
+@import url(../blocks/header/__close/_open/header__close_open.css);
 /* __menu */
 @import url(../blocks/header/__menu/header__menu.css);
 

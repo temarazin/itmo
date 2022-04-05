@@ -1,8 +1,9 @@
 .header__close {
-  display: none;
-  position: absolute;
+  display: flex;
+  visibility: hidden;
+  /* position: absolute;
   top: calc(50% - 11px);
-  right: 21px;
+  right: 21px; */
 }
 
 /* @media(min-width: 425px) {
