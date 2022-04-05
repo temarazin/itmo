@@ -1,9 +1,6 @@
 .header__close {
   display: flex;
   visibility: hidden;
-  /* position: absolute;
-  top: calc(50% - 11px);
-  right: 21px; */
 }
 
 /* @media(min-width: 425px) {

@@ -9,7 +9,7 @@ import {
 
 buttonMenu.addEventListener('click', openMenu);
 buttonClose.addEventListener('click', closeMenu);
-menuItems.addEventListener('click', openEducation)
+menuItems.addEventListener('click', openSubmenu)
 
 function openMenu() {
   menu.classList.add('menu_open');
@@ -23,7 +23,7 @@ function closeMenu() {
   buttonClose.classList.remove('header__close_open')
 }
 
-function openEducation(e) {
+function openSubmenu(e) {
   if (e.target.closest('.menu__link_type_study'))
     document.querySelector('.menu__sublist').classList.toggle('menu__sublist_open')
 }
