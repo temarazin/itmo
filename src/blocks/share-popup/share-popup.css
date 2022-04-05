@@ -2,7 +2,7 @@
     width: 184px;
     height: 56px;
     border-radius: 8px;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     filter: drop-shadow(0px 4px 20px rgba(73, 111, 168, 0.15));
