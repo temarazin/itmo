@@ -13,26 +13,26 @@ const sharePopup = new Popup(sharePopupSelector);
 
 buttonMenu.addEventListener('click', openMenu);
 buttonClose.addEventListener('click', closeMenu);
-menuItems.addEventListener('click', openSubmenu);
+menuItems.addEventListener('click', openSubmenu)
 buttonSharePublication.addEventListener('click', openPublicationPopup);
 
 function openMenu() {
   menu.classList.add('menu_open');
   buttonMenu.style.display = 'none';
-  buttonClose.classList.add('header__close_open');
+  buttonClose.classList.add('header__close_open')
 }
 
 function closeMenu() {
   menu.classList.remove('menu_open');
   buttonMenu.style.display = 'flex';
-  buttonClose.classList.remove('header__close_open');
+  buttonClose.classList.remove('header__close_open')
 }
 
 function openSubmenu(e) {
   if (e.target.closest('.menu__link_type_study'))
     document
       .querySelector('.menu__sublist')
-      .classList.toggle('menu__sublist_open');
+      .classList.toggle('menu__sublist_open')
 }
 
 function openPublicationPopup() {
