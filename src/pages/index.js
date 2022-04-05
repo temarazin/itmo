@@ -30,9 +30,7 @@ function closeMenu() {
 
 function openSubmenu(e) {
   if (e.target.closest('.menu__link_type_study'))
-    document
-      .querySelector('.menu__sublist')
-      .classList.toggle('menu__sublist_open')
+    document.querySelector('.menu__sublist').classList.toggle('menu__sublist_open')
 }
 
 function openPublicationPopup() {
