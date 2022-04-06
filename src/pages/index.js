@@ -5,11 +5,12 @@ import {
   buttonMenu,
   buttonClose,
   buttonSharePublication,
+  buttonSharePublicationSelector,
   sharePopupSelector,
 } from '../pages/scripts/utils/constants';
 import { Popup } from '../pages/scripts/components/Popup.js';
 
-const sharePopup = new Popup(sharePopupSelector);
+const sharePopup = new Popup(sharePopupSelector, buttonSharePublicationSelector);
 
 buttonMenu.addEventListener('click', openMenu);
 buttonClose.addEventListener('click', closeMenu);
@@ -34,5 +35,5 @@ function openSubmenu(e) {
 }
 
 function openPublicationPopup() {
-  sharePopup.open();
+  sharePopup.isOpened ? sharePopup.close() : sharePopup.open();
 }
