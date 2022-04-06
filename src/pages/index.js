@@ -3,13 +3,19 @@ import {
   menu,
   menuItems,
   buttonMenu,
-  buttonClose
-} from '../pages/scripts/utils/constants'
+  buttonClose,
+  buttonSharePublication,
+  buttonSharePublicationSelector,
+  sharePopupSelector,
+} from '../pages/scripts/utils/constants';
+import { Popup } from '../pages/scripts/components/Popup.js';
 
+const sharePopup = new Popup(sharePopupSelector, buttonSharePublicationSelector);
 
 buttonMenu.addEventListener('click', openMenu);
 buttonClose.addEventListener('click', closeMenu);
 menuItems.addEventListener('click', openSubmenu)
+buttonSharePublication.addEventListener('click', openPublicationPopup);
 
 function openMenu() {
   menu.classList.add('menu_open');
@@ -26,4 +32,8 @@ function closeMenu() {
 function openSubmenu(e) {
   if (e.target.closest('.menu__link_type_study'))
     document.querySelector('.menu__sublist').classList.toggle('menu__sublist_open')
+}
+
+function openPublicationPopup() {
+  sharePopup.isOpened ? sharePopup.close() : sharePopup.open();
 }

@@ -255,3 +255,7 @@
 @import url(../blocks/pin-slider/__dots/pin-slider__dots.css);
 @import url(../blocks/pin-slider/__dot/pin-slider__dot.css);
 @import url(../blocks/pin-slider/__dot/_active/pin-slider__dot_active.css);
+
+/* popup */
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
