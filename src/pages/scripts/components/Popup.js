@@ -26,7 +26,7 @@ class Popup {
   open() {
     this._popup.classList.add(openedPopupSelector);
     document.addEventListener("keydown", this._handleEscClose);
-    document.addEventListener("mousedown", this._handleClickOutside, false);
+    document.addEventListener("mousedown", this._handleClickOutside);
     this.isOpened = true;
   }
 
