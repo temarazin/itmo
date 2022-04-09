@@ -4,6 +4,6 @@
   line-height: 1.3;
 }
 
-.seciton__subtitle:not(:last-child){
+.section-subtitle:not(:last-child){
   margin: 0 0 16px;
 }

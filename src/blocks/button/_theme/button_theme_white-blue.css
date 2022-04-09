@@ -1,0 +1,8 @@
+.button_theme_white-blue {
+  background: none;
+  color: #fff;
+}
+
+.button_theme_white-blue:hover {
+  color: #E0F0FF;
+}

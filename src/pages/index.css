@@ -14,7 +14,8 @@
 
 /* Button */
 @import url(../blocks/button/button.css);
-@import url(../blocks/button/_theme/_white/button_theme_white.css);
+@import url(../blocks/button/_theme/button_theme_white-blue.css);
+@import url(../blocks/button/_theme/button_theme_light-blue.css);
 
 /* Section Title */
 @import url(../blocks/section-title/section-title.css);
