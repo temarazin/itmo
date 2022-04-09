@@ -12,7 +12,3 @@
   cursor: pointer;
   transition: 0.3s
 }
-
-.button:hover {
-  color: #009FAC;
-}

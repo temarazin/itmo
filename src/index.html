@@ -14,14 +14,14 @@
     <!-- header -->
     <header class="header">
       <div class="header__container">
-        <button class="header__burger burger">
+        <button class="burger header__burger">
           <span class="burger__item"></span>
           <span class="burger__item"></span>
           <span class="burger__item"></span>
         </button>
         <img class="header__logo" src="<%=require('./images/logo.png')%>" alt="Логотип!">
-        <button class="header__close close"></button>
-        <nav class="header__menu menu">
+        <button class="close header__close"></button>
+        <nav class="menu header__menu">
           <ul class="menu__list">
             <li class="menu__item"><a class="menu__link" href="#">О нас</a></li>
             <li class="menu__item"><a class="menu__link" href="#">Лаборатория</a></li>
@@ -48,7 +48,7 @@
         <div class="intro__inner">
           <h1 class="intro__title"><span class="intro__title_bold">Когнитивные технологии,</span> машинное обучение</h1>
           <p class="into__subtitle">Системы прикладного искусственного интеллекта</p>
-          <button class="button intro__button button_theme_white" href="#">Наши проекты</button>
+          <button class="button intro__button button_theme_light-blue" type="button">Наши проекты</button>
           <h2 class="section-title intro__section-title">Несколько слов о нас</h2>
           <p class="section-subtitle">Национальный центр когнитивных разработок – центр национальной технологической
             инициативы (НТИ), получивший государственную поддержку по направлению «Технологии машинного обучения
@@ -80,7 +80,7 @@
           <img class="lab__image" src="<%=require('./images/lab/image-1.png')%>" alt="Сотрудник НТИ за ноутбуком">
           <img class="lab__image" src="<%=require('./images/lab/image-2.png')%>" alt="Сотрудники НТИ за работой">
           <div class="lab__text-description">
-            <p class="lab__subtitle">Центр национальной технологической инициативы (НТИ),
+            <p class="lab__paragraph">Центр национальной технологической инициативы (НТИ),
                                       получивший государственную поддержку
                                       по направлению «Технологии машинного обучения
                                       и&nbsp;когнитивные технологии».</p>
@@ -130,11 +130,11 @@
       <!-- project -->
       <section class="project">
         <div class="project__container">
-          <h2 class="project__title section-title">наши проекты</h2>
+          <h2 class="section-title project__title">Наши проекты</h2>
 
           <div class="select-filter project__filter">
             <div class="select-filter__wrapper">
-              <p class="select-filter__subtitle">все проекты</p>
+              <p class="select-filter__subtitle">Все проекты</p>
               <button aria-label="Развернуть список" type="button" class="select-filter__btn-list"></button>
             </div>
 
@@ -482,11 +482,13 @@
       <!-- partners -->
       <section class="partners">
         <h2 class="section-title partners__section-title">С кем мы работаем</h2>
-        <p class="seciton__subtitle">За время сотрудничества компания показала себя как надежный партнер, способный оперативно решать вопросы по
-          внесению необходимых изменений.</p>
-        <p class="seciton__subtitle">Отдельно хочется отметить квалифицированный персонал компании, который всегда готов прийти на помощь в
-          решении поставленных задач, дать объективную оценку и свои рекомендации по улучшению деятельности.
-          Надеемся на дальнейшее и плодотворное сотрудничество.</p>
+        <div class="partners__text">
+          <p class="section-subtitle">За время сотрудничества компания показала себя как надежный партнер, способный оперативно решать вопросы по
+            внесению необходимых изменений.</p>
+          <p class="section-subtitle">Отдельно хочется отметить квалифицированный персонал компании, который всегда готов прийти на помощь в
+            решении поставленных задач, дать объективную оценку и свои рекомендации по улучшению деятельности.
+            Надеемся на дальнейшее и плодотворное сотрудничество.</p>
+        </div>
         <ul class="partners__logos">
           <li class="partners__logo"><img src="<%=require('./images/company-logo/rosveft-logo.svg')%>" alt="Логотип" class="partners__logo-img"></li>
           <li class="partners__logo"><img src="<%=require('./images/company-logo/gazprom-logo.svg')%>" alt="Логотип" class="partners__logo-img"></li>
@@ -502,8 +504,8 @@
       <!-- form -->
       <section class="contact-us">
         <div class="contact-us__container">
-          <h2 class="section__title">Всегда на связи</h2>
-          <p class="seciton__subtitle">По всем интересующим вас вопросам вы всегда можете обратиться по указанным телефонам, написать на почту или оставтиь свое сообщение через форму обратной связи.</p>
+          <h2 class="section-title">Всегда на связи</h2>
+          <p class="section-subtitle">По всем интересующим вас вопросам вы всегда можете обратиться по указанным телефонам, написать на почту или оставтиь свое сообщение через форму обратной связи.</p>
           <form class="form" name="form-contact-us" action="#" method="post">
             <label class="form__input-group">
               <input class="form__input form__input_type_name" id="input-name" type="text" name="name" placeholder="Имя" autocomplete="off" minlength="2" required>
@@ -522,7 +524,7 @@
               <p class="form__input-error input-email-error"></p>
             </label>
             <textarea class="form__input form__input_type_message" name="message" placeholder="Сообщение"></textarea>
-            <button class="form__button" type="submit" aria-label="Отправить">Отправить</button>
+            <button class="button button_theme_white-blue form__button" type="submit" aria-label="Отправить">Отправить</button>
           </form>
         </div>
       </section>
