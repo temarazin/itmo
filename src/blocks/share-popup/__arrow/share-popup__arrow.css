@@ -1,10 +1,10 @@
 .share-popup__arrow {
-    position: absolute;  
-    width: 0px;
-    height: 0px;
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    border-top: 8px solid white;
-    bottom: -7px;
-    right: 27px;
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid white;
+  bottom: -7px;
+  right: 27px;
 }

@@ -11,7 +11,7 @@
 }
 
 .form__input::placeholder {
-  color: #009FAC;
+  color: #009fac;
 }
 
 .form__input:hover::placeholder {

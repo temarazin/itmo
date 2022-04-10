@@ -1,7 +1,7 @@
 /* Select-filter */
 .select-filter__wrapper {
   margin: 0;
-  border-bottom: 2px solid #009FAC;
+  border-bottom: 2px solid #009fac;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;

@@ -11,6 +11,6 @@
   font-size: 10px;
   line-height: 13.62px;
   text-align: center;
-  transition: opacity .3s ease;
+  transition: opacity 0.3s ease;
   cursor: pointer;
 }

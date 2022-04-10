@@ -1,0 +1,19 @@
+{
+  "Verbose": false,
+  "IgnoreDefaults": false,
+  "Exclude": [
+    "vendor",
+    "normalize.css",
+    "\\.md$",
+    "\\.txt$"
+  ],
+  "SpacesAfterTabs": false,
+  "Disable": {
+    "EndOfLine": false,
+    "Indentation": false,
+    "IndentSize": false,
+    "InsertFinalNewline": false,
+    "TrimTrailingWhitespace": false,
+    "MaxLineLength": false
+  }
+}

@@ -11,7 +11,7 @@
   background-size: 24px 24px;
   border: none;
   color: #fff;
-  transition: transform .3s linear;
+  transition: transform 0.3s linear;
   transform: rotate(0);
 }
 

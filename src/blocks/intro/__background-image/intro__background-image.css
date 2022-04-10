@@ -11,7 +11,7 @@
 }
 
 @media screen and (min-width: 769px) {
-  .intro__background-image{
+  .intro__background-image {
     transform: scale(-1, 1);
   }
 }

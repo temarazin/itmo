@@ -1,0 +1,22 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": ["airbnb/base", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": ["error", { "useTabs": false }],
+    "no-use-before-define": ["error", { "functions": false, "classes": true, "variables": true }],
+    "max-len": "off",
+    "no-alert": "warn",
+    "no-plusplus": "off",
+    "import/extensions": "off",
+    "arrow-body-style": "warn",
+    "no-param-reassign": "warn",
+    "no-underscore-dangle": "off",
+    "prefer-destructuring": "warn",
+    "prefer-arrow-callback": "warn"
+  }
+}

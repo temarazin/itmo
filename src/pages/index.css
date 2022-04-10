@@ -2,10 +2,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/Open_Sans/OpenSans.css);
 
-
-
 /* BLOCKS ========================================= */
-
 
 /*** Elements ***/
 
@@ -69,7 +66,7 @@
 /* Form */
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/__input-group/form__input-group.css);
-@Import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__input/form__input.css);
 @import url(../blocks/form/__input-error/form__input-error.css);
 @import url(../blocks/form/__input/_type/form__input_type_name.css);
 @import url(../blocks/form/__input/_type/form__input_type_surname.css);
@@ -115,7 +112,6 @@
 @import url(../blocks/select-filter/__menu/select-filter__menu.css);
 @import url(../blocks/select-filter/__item/select-filter__item.css);
 @import url(../blocks/select-filter/__text/select-filter__text.css);
-
 
 /*** Sections ***/
 
@@ -227,7 +223,6 @@
 @import url(../blocks/footer/__contacts-email-link/footer__contacts-email-link.css);
 @import url(../blocks/footer/__social/footer__social.css);
 @import url(../blocks/footer/__madeby/footer__madeby.css);
-
 
 /*** Pages ***/
 
