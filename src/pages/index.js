@@ -7,8 +7,8 @@ import {
   buttonSharePublication,
   buttonSharePublicationSelector,
   sharePopupSelector,
-} from './scripts/utils/constants.js';
-import Popup from './scripts/components/Popup.js';
+} from '../utils/constants.js';
+import Popup from '../components/Popup.js';
 
 const sharePopup = new Popup(sharePopupSelector, buttonSharePublicationSelector);
 
