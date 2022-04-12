@@ -26,7 +26,6 @@
 
 /* Menu */
 @import url(../blocks/menu/menu.css);
-@import url(../blocks/menu/_open/menu_open.css);
 @import url(../blocks/menu/__list/menu__list.css);
 @import url(../blocks/menu/__item/menu__item.css);
 @import url(../blocks/menu/__item/_active/menu__item_active.css);
@@ -123,6 +122,7 @@
 @import url(../blocks/header/__close/header__close.css);
 @import url(../blocks/header/__close/_open/header__close_open.css);
 @import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu/_open/header__menu_open.css);
 
 /* Intro */
 @import url(../blocks/intro/intro.css);
