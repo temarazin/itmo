@@ -14,7 +14,7 @@ const sharePopup = new Popup(sharePopupSelector, buttonSharePublicationSelector)
 
 buttonMenu.addEventListener('click', openMenu);
 buttonClose.addEventListener('click', closeMenu);
-menuItems.addEventListener('click', openSubmenu);
+menuItems.addEventListener('click', toggleSubmenu);
 buttonSharePublication.addEventListener('click', openPublicationPopup);
 
 function openMenu() {
@@ -27,11 +27,16 @@ function closeMenu() {
   menu.classList.remove('header__menu_open');
   buttonMenu.style.display = 'flex';
   buttonClose.classList.remove('header__close_open');
+  closeSubmenu();
 }
 
-function openSubmenu(e) {
+function toggleSubmenu(e) {
   if (e.target.closest('.menu__link_type_study'))
     document.querySelector('.menu__sublist').classList.toggle('menu__sublist_open');
+}
+
+function closeSubmenu() {
+  document.querySelector('.menu__sublist').classList.remove('menu__sublist_open');
 }
 
 function openPublicationPopup() {
