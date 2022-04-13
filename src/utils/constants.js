@@ -5,4 +5,4 @@ export const buttonClose = document.querySelector('.close');
 export const buttonSharePublication = document.querySelector('.publication__share');
 export const buttonSharePublicationSelector = 'publication__share';
 export const sharePopupSelector = 'share-popup';
-export const openedPopupSelector = 'popup_opened';
+export const openedPopupSelector = 'share-popup_opened';
