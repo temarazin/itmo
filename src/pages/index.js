@@ -1,7 +1,8 @@
 import './index.css';
 import {
   menu,
-  menuItems,
+  submenus,
+  // menuItems,
   buttonMenu,
   buttonClose,
   buttonSharePublication,
@@ -14,7 +15,7 @@ const sharePopup = new Popup(sharePopupSelector, buttonSharePublicationSelector)
 
 buttonMenu.addEventListener('click', openMenu);
 buttonClose.addEventListener('click', closeMenu);
-menuItems.addEventListener('click', toggleSubmenu);
+submenus.forEach((submenu) => submenu.addEventListener('click', (e) => toggleSubmenu(e)));
 buttonSharePublication.addEventListener('click', openPublicationPopup);
 
 function openMenu() {
@@ -31,12 +32,14 @@ function closeMenu() {
 }
 
 function toggleSubmenu(e) {
-  if (e.target.closest('.menu__link_type_study'))
-    document.querySelector('.menu__sublist').classList.toggle('menu__sublist_open');
+  const sublist = e.target.nextElementSibling;
+  if (sublist) sublist.classList.toggle('menu__sublist_open');
 }
 
 function closeSubmenu() {
-  document.querySelector('.menu__sublist').classList.remove('menu__sublist_open');
+  document
+    .querySelectorAll('.menu__sublist')
+    .forEach((sublist) => sublist.classList.remove('menu__sublist_open'));
 }
 
 function openPublicationPopup() {

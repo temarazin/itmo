@@ -30,7 +30,6 @@
 @import url(../blocks/menu/__item/menu__item.css);
 @import url(../blocks/menu/__item/_active/menu__item_active.css);
 @import url(../blocks/menu/__link/menu__link.css);
-@import url(../blocks/menu/__link/_type/menu__link_type_study.css);
 @import url(../blocks/menu/__sublist/menu__sublist.css);
 @import url(../blocks/menu/__sublist/_open/menu__sublist_open.css);
 @import url(../blocks/menu/__subitem/menu__subitem.css);

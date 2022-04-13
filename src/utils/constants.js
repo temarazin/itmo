@@ -6,3 +6,4 @@ export const buttonSharePublication = document.querySelector('.publication__shar
 export const buttonSharePublicationSelector = 'publication__share';
 export const sharePopupSelector = 'share-popup';
 export const openedPopupSelector = 'popup_opened';
+export const submenus = menu.querySelectorAll('.menu__item_type_submenu');
