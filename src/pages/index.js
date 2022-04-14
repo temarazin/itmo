@@ -7,6 +7,10 @@ import {
   buttonSharePublication,
   buttonSharePublicationSelector,
   sharePopupSelector,
+  buttonStudyAspirant,
+  buttonStudyMagistr,
+  cardStudyAspirant,
+  cardStudyMagistr,
 } from '../utils/constants.js';
 import Popup from '../components/Popup.js';
 
@@ -37,3 +41,18 @@ function openSubmenu(e) {
 function openPublicationPopup() {
   return sharePopup.isOpened ? sharePopup.close() : sharePopup.open();
 }
+
+// study
+buttonStudyAspirant.addEventListener('click', () => {
+  cardStudyAspirant.classList.add('study__card_visible');
+  buttonStudyAspirant.classList.add('study__button_active');
+  buttonStudyMagistr.classList.remove('study__button_active');
+  cardStudyMagistr.classList.remove('study__card_visible');
+});
+
+buttonStudyMagistr.addEventListener('click', () => {
+  cardStudyMagistr.classList.add('study__card_visible');
+  buttonStudyMagistr.classList.add('study__button_active');
+  cardStudyAspirant.classList.remove('study__card_visible');
+  buttonStudyAspirant.classList.remove('study__button_active');
+});
