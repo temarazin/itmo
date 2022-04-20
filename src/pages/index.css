@@ -99,10 +99,6 @@
 @import url(../blocks/pin-slider/__dot/pin-slider__dot.css);
 @import url(../blocks/pin-slider/__dot/_active/pin-slider__dot_active.css);
 
-/* Popup */
-@import url(../blocks/popup/popup.css);
-@import url(../blocks/popup/_opened/popup_opened.css);
-
 /* Select Filter */
 @import url(../blocks/select-filter/select-filter.css);
 @import url(../blocks/select-filter/__wrapper/select-filter__wrapper.css);
@@ -195,6 +191,7 @@
 @import url(../blocks/share-popup/__group/share-popup__group.css);
 @import url(../blocks/share-popup/__icon/share-popup__icon.css);
 @import url(../blocks/share-popup/__arrow/share-popup__arrow.css);
+@import url(../blocks/share-popup/_opened/share-popup_opened.css);
 
 /* Team */
 @import url(../blocks/team/team.css);
