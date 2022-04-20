@@ -6,3 +6,7 @@ export const buttonSharePublication = document.querySelector('.publication__shar
 export const buttonSharePublicationSelector = 'publication__share';
 export const sharePopupSelector = 'share-popup';
 export const openedPopupSelector = 'share-popup_opened';
+export const buttonStudyAspirant = document.querySelector('.study__button_type_aspirant');
+export const buttonStudyMagistr = document.querySelector('.study__button_type_magistr');
+export const cardStudyAspirant = document.querySelector('.study__card_type_aspirant');
+export const cardStudyMagistr = document.querySelector('.study__card_type_magistr');
