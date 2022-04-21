@@ -1,0 +1,5 @@
+.header__menu_open {
+  left: 0;
+  opacity: 1;
+  position: fixed;
+}
