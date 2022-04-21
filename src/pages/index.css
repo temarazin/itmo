@@ -40,6 +40,7 @@
 /* card */
 @import url(../blocks/cardlist/cardlist.css);
 @import url(../blocks/card/card.css);
+@import url(../blocks/card/_image/card_image.css);
 @import url(../blocks/card/_pressed/card_pressed.css);
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__icon-circle/card__icon-circle.css);
@@ -138,7 +139,10 @@
 @import url(../blocks/lab/__image/lab__image.css);
 @import url(../blocks/lab/__text-description/lab__text-description.css);
 @import url(../blocks/lab/__subtitle/lab__subtitle.css);
-@import url(../blocks/lab/__paragraph/lab__paragraph.css);
+@import url(../blocks/lab/__paragraph_first/lab__paragraph_first.css);
+@import url(../blocks/lab/__paragraph_row/lab__paragraph_row.css);
+@import url(../blocks/lab/__paragraph_second/lab__paragraph_second.css);
+@import url(../blocks/lab/__paragraph_icon/lab__paragraph_icon.css);
 
 /* Project */
 @import url(../blocks/project/project.css);

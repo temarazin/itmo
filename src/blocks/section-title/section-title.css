@@ -6,3 +6,9 @@
   text-align: center;
   text-transform: uppercase;
 }
+
+@media screen and (min-width: 765px) {
+  .section-title {
+    font-size: 24px;
+  }
+}

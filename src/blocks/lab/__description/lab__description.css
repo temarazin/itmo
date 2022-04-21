@@ -3,3 +3,17 @@
   flex-direction: column;
   margin: 0 auto 20px;
 }
+
+@media screen and (min-width: 765px) {
+  .lab__description {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lab__description {
+    margin-bottom: 80px;
+  }
+}

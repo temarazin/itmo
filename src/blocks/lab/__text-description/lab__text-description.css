@@ -4,3 +4,20 @@
   line-height: 16px;
   margin: 0 auto;
 }
+
+@media screen and (min-width: 765px) {
+  .lab__text-description {
+    margin-right: 30px;
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 330px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lab__text-description {
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 540px;
+  }
+}

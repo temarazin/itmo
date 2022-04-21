@@ -10,4 +10,19 @@
   align-items: center;
   justify-content: space-between;
   justify-self: center;
+  background-size: contain;
+}
+
+@media screen and (min-width: 765px) {
+  .card {
+    width: 150px;
+    height: 242px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .card {
+    width: 255px;
+    height: 430px;
+  }
 }

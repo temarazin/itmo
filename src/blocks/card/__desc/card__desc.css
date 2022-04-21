@@ -1,7 +1,15 @@
 .card__desc {
   font-size: 10px;
-  line-height: 13.62px;
+  line-height: 14px;
   max-width: 121px;
   text-align: center;
-  margin: 16px auto;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1280px) {
+  .card__desc {
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 215px;
+  }
 }

@@ -2,3 +2,15 @@
   margin: 0 0 20px;
   color: #000d26;
 }
+
+@media screen and (min-width: 765px) {
+  .section-title.lab__section-title {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section-title.lab__section-title {
+    margin-bottom: 60px;
+  }
+}

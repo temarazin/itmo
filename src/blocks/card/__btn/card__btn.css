@@ -2,15 +2,26 @@
   padding: 0;
   margin: 0 auto 10px;
   width: 120px;
+  height: 32px;
   border: 1px solid #001337;
   border-radius: 5px;
-  background-color: white;
+  background: none;
   color: #001337;
-  height: 32px;
   font-weight: 600;
   font-size: 10px;
-  line-height: 13.62px;
+  line-height: 14px;
   text-align: center;
   transition: opacity 0.3s ease;
   cursor: pointer;
+}
+
+@media screen and (min-width: 1280px) {
+  .card__btn {
+    width: 215px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 20px;
+  }
 }

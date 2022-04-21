@@ -4,3 +4,10 @@
   margin: auto;
   background-size: contain;
 }
+
+@media screen and (min-width: 1280px) {
+  .card__icon {
+    height: 34px;
+    width: 34px;
+  }
+}

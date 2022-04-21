@@ -1,4 +1,19 @@
 .lab {
   margin: 0 auto;
   padding: 40px 16px;
+  max-width: 288px;
+}
+
+@media screen and (min-width: 768px) {
+  .lab {
+    padding: 60px 39px;
+    max-width: 690px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lab {
+    padding: 80px 39px;
+    max-width: 1110px;
+  }
 }

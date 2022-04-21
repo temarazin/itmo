@@ -4,5 +4,11 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 8px;
-  /* max-width: 288px; */
+}
+
+@media screen and (min-width: 765px) {
+  .cardlist {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+  }
 }

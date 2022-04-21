@@ -1,0 +1,21 @@
+@media screen and (min-width: 765px) {
+  .card_image_project {
+    background-image: linear-gradient(#fff, transparent),
+      url(../../../images/lab/project-background.png);
+  }
+
+  .card_image_brain {
+    background-image: linear-gradient(#fff, transparent),
+      url(../../../images/lab/brain-background.png);
+  }
+
+  .card_image_micro {
+    background-image: linear-gradient(#fff, transparent),
+      url(../../../images/lab/micro-background.png);
+  }
+
+  .card_image_robot {
+    background-image: linear-gradient(#fff, transparent),
+      url(../../../images/lab/robot-background.png);
+  }
+}

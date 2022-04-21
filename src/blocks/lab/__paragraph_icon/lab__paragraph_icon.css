@@ -1,0 +1,17 @@
+.lab__paragraph_icon {
+  display: none;
+}
+
+@media screen and (min-width: 1280px) {
+  .lab__paragraph_icon {
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: -36px;
+    background-image: url(../../../images/ico/components/moleculer.svg);
+    width: 24px;
+    height: 22.56px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}

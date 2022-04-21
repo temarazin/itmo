@@ -1,0 +1,10 @@
+.lab__paragraph_second {
+  margin: 20px 0 0;
+  font-weight: 300;
+}
+
+@media screen and (min-width: 1280px) {
+  .lab__paragraph_second {
+    line-height: 26px;
+  }
+}

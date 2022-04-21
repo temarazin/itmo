@@ -1,10 +1,31 @@
 .lab__image {
-  width: 100%;
-  height: 100%;
+  width: 288px;
+  height: 180px;
   object-fit: cover;
   margin: 0 auto;
+  border-radius: 5px;
 }
 
 .lab__image:first-of-type {
   display: none;
+}
+
+@media screen and (min-width: 765px) {
+  .lab__image {
+    width: 330px;
+    height: 240px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lab__image:first-of-type {
+    display: inline;
+    margin-left: 12px;
+  }
+
+  .lab__image {
+    width: 264px;
+    height: 276px;
+  }
 }

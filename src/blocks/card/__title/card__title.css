@@ -1,8 +1,22 @@
 .card__title {
   font-size: 10px;
-  line-height: 13.62px;
+  line-height: 14px;
   font-weight: 600;
-  max-width: 121px;
   text-align: center;
-  margin: 10px auto 16px;
+  margin: 10px auto 0;
+}
+
+@media screen and (min-width: 765px) {
+  .card__title {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .card__title {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 30px auto 0;
+  }
 }
