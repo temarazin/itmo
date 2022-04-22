@@ -1,9 +1,14 @@
-export const menu = document.querySelector('.menu');
-export const menuItems = menu.querySelector('.menu__list');
-export const buttonMenu = document.querySelector('.burger');
-export const buttonClose = document.querySelector('.close');
-export const buttonSharePublication = document.querySelector('.publication__share');
-export const buttonSharePublicationSelector = 'publication__share';
-export const sharePopupSelector = 'share-popup';
-export const openedPopupSelector = 'popup_opened';
-export const submenus = menu.querySelectorAll('.menu__item_type_submenu');
+const menuElement = document.querySelector('.menu');
+const constants = {
+  menu: menuElement,
+  menuItems: menuElement.querySelector('.menu__list'),
+  buttonMenu: document.querySelector('.burger'),
+  buttonClose: document.querySelector('.close'),
+  buttonSharePublication: document.querySelector('.publication__share'),
+  buttonSharePublicationSelector: 'publication__share',
+  sharePopupSelector: 'share-popup',
+  openedPopupSelector: 'popup_opened',
+  submenus: menuElement.querySelectorAll('.menu__item_type_submenu'),
+};
+
+export default constants;
