@@ -271,21 +271,17 @@
         <!-- study -->
         <section class="study">
           <h2 class="section-title study__section-title">Образование</h2>
-
           <p class="section-subtitle study__section-subtitle">
             В образовательной деятельности НЦКР активно использует существующую в Университете ИТМО инфраструктуру и опыт реализации сетевых форм обучения, опираясь на вузы-диссеминаторы (ННГУ, ДВФУ, ФГБОУ ВО «МГТУ «СТАНКИН», НовГУ), а также профильную компанию ООО «НЦЭО» в области электронного и
             дистанционного образования. Реализуются образовательные программы различных форматов.
           </p>
-
-          <div class="study__card">
+          <div class="study__card study__card_type_aspirant">
             <picture>
-              <source srcset="<%=require('./images/study/magistr.png')%>" media="(min-width: 768px)" />
-              <img class="study__img" src="<%=require('./images/study/magistr_m.png')%>" alt="асперанты" />
+              <source srcset="<%=require('./images/study/aspirant_m.png')%>" media="(min-width: 768px)" />
+              <img class="study__img" src="<%=require('./images/study/aspirant.png')%>" alt="асперанты" />
             </picture>
-
             <div class="study__content">
               <h3 class="study__title">Образовательные программы аспирантуры в области МО и КТ</h3>
-
               <ul class="study__list">
                 <li class="study__list-item">Прикладные технологии искусственного интеллекта;</li>
                 <li class="study__list-item">Машинное обучение и искусственный интеллект;</li>
@@ -296,10 +292,33 @@
                 <li class="study__list-item">Семантические системы и инженерия знаний;</li>
                 <li class="study__list-item">Технологии разработки компьютерных игр</li>
               </ul>
-
               <a href="#" target="_blank" class="study__link">
                 <span class="study__link_text">Подробнее</span>
-
+                <svg class="study__link_icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                  <path stroke="#000D26" stroke-linecap="round" d="M3 12h18m-6 6 6-6-6-6" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="study__card study__card_type_magistr study__card_visible">
+            <picture>
+              <source srcset="<%=require('./images/study/magistr.png')%>" media="(min-width: 768px)" />
+              <img class="study__img" src="<%=require('./images/study/magistr_m.png')%>" alt="асперанты" />
+            </picture>
+            <div class="study__content">
+              <h3 class="study__title">Образовательные программы аспирантуры в области МО и КТ</h3>
+              <ul class="study__list">
+                <li class="study__list-item">Прикладные технологии искусственного интеллекта;</li>
+                <li class="study__list-item">Машинное обучение и искусственный интеллект;</li>
+                <li class="study__list-item">Биометрические информационные системы;</li>
+                <li class="study__list-item">Речевые информационные системы;</li>
+                <li class="study__list-item">Когнитивные вычисления и квантовый интеллект;</li>
+                <li class="study__list-item">Большие данные и экстренные вычисления;</li>
+                <li class="study__list-item">Семантические системы и инженерия знаний;</li>
+                <li class="study__list-item">Технологии разработки компьютерных игр</li>
+              </ul>
+              <a href="#" target="_blank" class="study__link">
+                <span class="study__link_text">Подробнее</span>
                 <svg class="study__link_icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                   <path stroke="#000D26" stroke-linecap="round" d="M3 12h18m-6 6 6-6-6-6" />
                 </svg>
@@ -307,8 +326,8 @@
             </div>
           </div>
           <div class="study__buttons">
-            <button class="study__button">Аспирантура</button>
-            <button class="study__button study__button_active">Магистратура</button>
+            <button class="study__button study__button_type_aspirant">Аспирантура</button>
+            <button class="study__button study__button_type_magistr study__button_active">Магистратура</button>
           </div>
         </section>
 
@@ -330,7 +349,7 @@
               </a>
               <button class="publication__share" type="button" aria-label="Поделиться"></button>
             </div>
-            <div class="share-popup popup">
+            <div class="share-popup">
               <ul class="share-popup__group">
                 <li aria-label="Vkontakte">
                   <a class="share-popup__icon" href="#" target="_blank">
