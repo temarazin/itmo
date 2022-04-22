@@ -2,3 +2,17 @@
   height: 140px;
   resize: none;
 }
+
+@media screen and (min-width: 641px) {
+  .form__input_type_message {
+    grid-column: 3;
+    grid-row: 1 / 3;
+    height: 115px;
+  }  
+}
+
+@media screen and (min-width: 1025px) {
+  .form__input_type_message {
+    height: 158px;
+  }
+}

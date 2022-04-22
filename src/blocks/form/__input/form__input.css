@@ -21,3 +21,20 @@
 .form__input:focus-visible::placeholder {
   font-size: 0;
 }
+
+@media screen and (min-width: 641px) {
+  .form__input {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    height: 44px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .form__input {
+    font-size: 18px;
+    line-height: 20px;
+    height: 60px;
+  }
+}

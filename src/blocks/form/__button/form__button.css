@@ -3,3 +3,24 @@
   max-width: none;
   margin-top: 23px;
 }
+
+@media screen and (min-width: 641px) {
+  .form__button {
+    justify-self: center;
+    width: 210px;
+    font-size: 18px;
+    line-height: 30px;
+    border-radius: 10px;
+    grid-column: 1 / 4;
+    padding: 6px 16px;
+    height: 44px;    
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .form__button {
+    width: 350px;
+    height: 60px; 
+    padding: 14px 16px;
+  }
+}
