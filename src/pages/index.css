@@ -78,6 +78,7 @@
 @import url(../blocks/footer-menu/_el/footer-menu_el_development.css);
 @import url(../blocks/footer-menu/__title/footer-menu__title.css);
 @import url(../blocks/footer-menu/__list/footer-menu__list.css);
+@import url(../blocks/footer-menu/__item/footer-menu__item.css);
 @import url(../blocks/footer-menu/__link/footer-menu__link.css);
 
 /* Social Links */
@@ -217,10 +218,13 @@
 @import url(../blocks/footer/__logo/footer__logo.css);
 @import url(../blocks/footer/__logo-image/footer__logo-image.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__text/footer__text.css);
 @import url(../blocks/footer/__contacts/footer__contacts.css);
 @import url(../blocks/footer/__contacts-city/footer__contacts-city);
+@import url(../blocks/footer/__contacts-address/footer__contacts-address.css);
 @import url(../blocks/footer/__contacts-phones/footer__contacts-phones.css);
 @import url(../blocks/footer/__contacts-phone/footer__contacts-phone.css);
+@import url(../blocks/footer/__contacts-email/footer__contacts-email.css);
 @import url(../blocks/footer/__contacts-email-link/footer__contacts-email-link.css);
 @import url(../blocks/footer/__social/footer__social.css);
 @import url(../blocks/footer/__madeby/footer__madeby.css);

@@ -1,7 +1,14 @@
 .footer__copyright {
-  margin: 0;
   grid-area: copyright;
-  font-size: 12px;
+  max-width: 140px;
+  margin: 0;
   line-height: 1.33;
   white-space: pre-line;
+}
+
+@media(min-width: 576px) {
+  .footer__copyright {
+    max-width: none;
+    margin-bottom: 30px;
+  }
 }

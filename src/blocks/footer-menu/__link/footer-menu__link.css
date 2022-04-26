@@ -1,9 +1,6 @@
 .footer-menu__link {
   color: #fff;
   text-decoration: none;
-  font-size: 12px;
-  line-height: 1.63;
-  letter-spacing: 0.1px;
   transition: 0.3s;
 }
 

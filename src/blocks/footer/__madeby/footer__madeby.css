@@ -2,8 +2,19 @@
   grid-area: madeby;
   max-width: 300px;
   width: 100%;
-  margin: 0 auto 0 0;
-  font-size: 12px;
+  margin: 40px 0 0;
   line-height: 1.33;
   opacity: 0.5;
+}
+
+@media(min-width: 768px) {
+  .footer__madeby {
+    margin-top: 30px;
+  }
+}
+
+@media(min-width: 922px) {
+  .footer__madeby {
+    margin-top: 40px;
+  }
 }

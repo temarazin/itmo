@@ -1,3 +1,9 @@
 .footer__contacts {
   grid-area: address;
+  max-width: 231px;
+}
+
+@media(min-width: 576px) {
+  .footer__contacts {
+  }
 }

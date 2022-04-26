@@ -1,6 +1,12 @@
 .footer__contacts-city {
   margin: 0 0 8px;
-  font-weight: 600;
   font-size: 14px;
+  font-weight: 600;
   line-height: 1.36;
+}
+
+@media(min-width: 768px) {
+  .footer__contacts-city {
+    font-size: 18px;
+  }
 }
