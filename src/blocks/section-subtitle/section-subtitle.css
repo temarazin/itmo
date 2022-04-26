@@ -7,3 +7,22 @@
 .section-subtitle:not(:last-child) {
   margin: 0 0 16px;
 }
+
+@media screen and (min-width: 576px) {
+  .section-subtitle {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .section-subtitle {
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 920px;
+  }
+  .contact-us__container .section-subtitle {
+    justify-self: center;
+  }
+}
