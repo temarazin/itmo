@@ -1,9 +1,17 @@
 /* Select-filter */
 .select-filter__menu {
-  margin: 0;
-  padding: 0;
-  background: #000d26;
-
+  position: absolute;
+  top: 45px;
+  left: 0;
+  z-index: 99;
+  width: 100%;
   min-height: 296px;
-  display: none;
+  margin: 0;
+  padding: 15px 0 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  background: #000d26;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
 }

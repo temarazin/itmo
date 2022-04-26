@@ -1,5 +1,6 @@
 import './index.css';
 import {
+  page,
   menu,
   submenus,
   // menuItems,
@@ -12,6 +13,8 @@ import {
   buttonStudyMagistr,
   cardStudyAspirant,
   cardStudyMagistr,
+  select,
+  selectItems,
 } from '../utils/constants.js';
 import Popup from '../components/Popup.js';
 
@@ -64,3 +67,56 @@ buttonStudyMagistr.addEventListener('click', () => {
   cardStudyAspirant.classList.remove('study__card_visible');
   buttonStudyAspirant.classList.remove('study__button_active');
 });
+
+// handle select item
+const handleSelectItem = (e) => {
+  if (e.target.classList.contains('select-filter__item')) {
+    document.querySelector('.select-filter__subtitle').textContent = e.target.textContent;
+    // eslint-disable-next-line no-use-before-define
+    selectClose();
+  }
+};
+
+// open select
+const selectOpen = () => {
+  select.classList.add('select-filter_open');
+  // addEL click select item
+  selectItems.addEventListener('click', handleSelectItem);
+};
+
+// close select
+const selectClose = () => {
+  select.classList.remove('select-filter_open');
+  // removeEL click select item
+  selectItems.removeEventListener('click', handleSelectItem);
+};
+
+// close select button
+const selectButtonClose = (e) => {
+  if (e.key === 'Escape') {
+    selectClose();
+  }
+};
+
+// toggle select
+const toggleSelect = () => {
+  if (select.classList.contains('select-filter_open')) {
+    selectClose();
+  } else {
+    selectOpen();
+  }
+};
+
+// close select overlay
+const selectOverlayClose = (e) => {
+  if (!e.target.closest('.select-filter')) {
+    selectClose();
+  }
+};
+
+// addEL select
+select.addEventListener('click', toggleSelect);
+// addEL close select click overlay
+page.addEventListener('click', selectOverlayClose);
+// addEL close select button
+document.addEventListener('keydown', selectButtonClose);

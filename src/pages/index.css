@@ -99,13 +99,12 @@
 
 /* Select Filter */
 @import url(../blocks/select-filter/select-filter.css);
+@import url(../blocks/select-filter/_open/select-filter_open.css);
 @import url(../blocks/select-filter/__wrapper/select-filter__wrapper.css);
-@import url(../blocks/select-filter/__wrapper/_active/select-filter__wrapper_active.css);
 @import url(../blocks/select-filter/__subtitle/select-filter__subtitle.css);
 @import url(../blocks/select-filter/__btn-list/select-filter__btn-list.css);
 @import url(../blocks/select-filter/__menu/select-filter__menu.css);
 @import url(../blocks/select-filter/__item/select-filter__item.css);
-@import url(../blocks/select-filter/__text/select-filter__text.css);
 
 /*** Sections ***/
 

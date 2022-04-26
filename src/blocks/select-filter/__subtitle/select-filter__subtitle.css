@@ -1,9 +1,12 @@
 /* Select-filter */
 .select-filter__subtitle {
-  margin: 0 0 10px;
-
+  flex-grow: 1;
+  margin: 0;
+  padding: 13px 0;
+  box-sizing: border-box;
   font-size: 12px;
   font-weight: 600;
   line-height: 1.36;
   text-transform: uppercase;
+  transition: 0.3s;
 }

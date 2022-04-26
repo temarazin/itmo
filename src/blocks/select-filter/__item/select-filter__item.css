@@ -1,5 +1,9 @@
 /* Select-filter */
 .select-filter__item {
-  padding: 30px 0 0;
-  list-style-type: none;
+  padding: 10px 16px;
+  line-height: 1.71;
+}
+
+.select-filter__item:active {
+  background-color: #001337;
 }
