@@ -1,4 +1,4 @@
-import constants from '../utils/constants.js';
+import { openedPopupSelector } from '../utils/constants.js';
 
 export default class Popup {
   constructor(popupSelector, buttonOpenPopupSelector) {
@@ -25,14 +25,14 @@ export default class Popup {
   }
 
   open() {
-    this._popup.classList.add(constants.openedPopupSelector);
+    this._popup.classList.add(openedPopupSelector);
     document.addEventListener('keydown', this._handleEscClose);
     document.addEventListener('mousedown', this._handleClickOutside);
     this.isOpened = true;
   }
 
   close() {
-    this._popup.classList.remove(constants.openedPopupSelector);
+    this._popup.classList.remove(openedPopupSelector);
     document.removeEventListener('keydown', this._handleEscClose);
     document.removeEventListener('mousedown', this._handleClickOutside);
     this.isOpened = false;
