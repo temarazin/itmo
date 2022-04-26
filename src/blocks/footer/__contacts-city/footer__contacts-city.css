@@ -5,7 +5,7 @@
   line-height: 1.36;
 }
 
-@media(min-width: 768px) {
+@media (min-width: 768px) {
   .footer__contacts-city {
     font-size: 18px;
   }

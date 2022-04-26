@@ -7,13 +7,13 @@
   opacity: 0.5;
 }
 
-@media(min-width: 768px) {
+@media (min-width: 768px) {
   .footer__madeby {
     margin-top: 30px;
   }
 }
 
-@media(min-width: 922px) {
+@media (min-width: 922px) {
   .footer__madeby {
     margin-top: 40px;
   }

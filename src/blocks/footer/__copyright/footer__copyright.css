@@ -6,7 +6,7 @@
   white-space: pre-line;
 }
 
-@media(min-width: 576px) {
+@media (min-width: 576px) {
   .footer__copyright {
     max-width: none;
     margin-bottom: 30px;

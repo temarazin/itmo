@@ -3,13 +3,13 @@
   margin-bottom: 40px;
 }
 
-@media(min-width: 576px) {
+@media (min-width: 576px) {
   .footer__logo {
     margin-bottom: 30px;
   }
 }
 
-@media(min-width: 922px) {
+@media (min-width: 922px) {
   .footer__logo {
     margin-bottom: 40px;
   }

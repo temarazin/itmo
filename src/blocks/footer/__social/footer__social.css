@@ -3,7 +3,7 @@
   margin: 20px 0 0;
 }
 
-@media(min-width: 922px) {
+@media (min-width: 922px) {
   .footer__social {
     margin-top: 65px;
   }
