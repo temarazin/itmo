@@ -13,22 +13,22 @@
     border-radius: 10px;
     grid-column: 1 / 3;
     padding: 6px 16px;
-    height: 44px; 
-    margin-top: 37px;   
+    height: 44px;
+    margin-top: 37px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .form__button {
     margin-top: 23px;
-    grid-column: 1 / 4;   
+    grid-column: 1 / 4;
   }
 }
 
 @media screen and (min-width: 992px) {
   .form__button {
     width: 350px;
-    height: 60px; 
+    height: 60px;
     padding: 14px 16px;
   }
 }
