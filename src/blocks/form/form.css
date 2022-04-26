@@ -2,15 +2,21 @@
   display: grid;
 }
 
-@media screen and (min-width: 641px) {
+@media screen and (min-width: 576px) {
   .form {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     column-gap: 29px;
   }  
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 768px) {
+  .form {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }  
+}
+
+@media screen and (min-width: 992px) {
   .form {
     row-gap: 10px;
   }  

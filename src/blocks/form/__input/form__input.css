@@ -22,7 +22,7 @@
   font-size: 0;
 }
 
-@media screen and (min-width: 641px) {
+@media screen and (min-width:576px) {
   .form__input {
     font-size: 14px;
     line-height: 20px;
@@ -31,7 +31,7 @@
   }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 992px) {
   .form__input {
     font-size: 18px;
     line-height: 20px;

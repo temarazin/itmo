@@ -3,7 +3,15 @@
   resize: none;
 }
 
-@media screen and (min-width: 641px) {
+@media screen and (min-width: 576px) {
+  .form__input_type_message {
+    grid-column: 1 / 3;
+    grid-row: 3;
+    height: 115px;
+  }  
+}
+
+@media screen and (min-width: 768px) {
   .form__input_type_message {
     grid-column: 3;
     grid-row: 1 / 3;
@@ -11,7 +19,7 @@
   }  
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 992px) {
   .form__input_type_message {
     height: 158px;
   }

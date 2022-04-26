@@ -4,20 +4,28 @@
   margin-top: 23px;
 }
 
-@media screen and (min-width: 641px) {
+@media screen and (min-width: 576px) {
   .form__button {
     justify-self: center;
     width: 210px;
     font-size: 18px;
     line-height: 30px;
     border-radius: 10px;
-    grid-column: 1 / 4;
+    grid-column: 1 / 3;
     padding: 6px 16px;
-    height: 44px;    
+    height: 44px; 
+    margin-top: 37px;   
   }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 768px) {
+  .form__button {
+    margin-top: 23px;
+    grid-column: 1 / 4;   
+  }
+}
+
+@media screen and (min-width: 992px) {
   .form__button {
     width: 350px;
     height: 60px; 
