@@ -215,6 +215,7 @@
 
 /* Footer */
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
 @import url(../blocks/footer/__logo-image/footer__logo-image.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);

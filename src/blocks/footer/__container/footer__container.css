@@ -1,0 +1,60 @@
+.footer__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  column-gap: 8px;
+  grid-template-areas:
+    'logo copyright'
+    'menufirst menusecond'
+    'address address'
+    'social social'
+    'madeby madeby';
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 40px 16px 32px;
+  box-sizing: border-box;
+  font-size: 12px;
+  line-height: 1.67;
+  color: #fff;
+}
+
+@media (min-width: 576px) {
+  .footer__container {
+    grid-template-areas:
+      'logo logo logo'
+      'copyright copyright copyright'
+      'menufirst menusecond address'
+      'madeby madeby social';
+    padding: 60px 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer__container {
+    grid-template-columns: 204px auto auto 210px;
+    column-gap: 25px;
+    justify-content: space-between;
+    grid-template-areas:
+      'logo logo logo logo'
+      'copyright copyright copyright copyright'
+      'text menufirst menusecond address'
+      'madeby madeby madeby social';
+  }
+}
+
+@media (min-width: 922px) {
+  .footer__container {
+    grid-template-columns: 263px auto auto 210px;
+    justify-content: space-around;
+    align-content: start;
+    grid-template-areas:
+      'logo logo logo logo'
+      'copyright menufirst menusecond address'
+      'text menufirst menusecond address'
+      'text menufirst menusecond social'
+      'madeby madeby madeby social';
+    padding: 80px 40px;
+    font-size: 14px;
+  }
+}
