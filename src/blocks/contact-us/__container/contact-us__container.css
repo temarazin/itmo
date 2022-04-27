@@ -3,4 +3,19 @@
   gap: 23px;
   box-sizing: border-box;
   padding: 40px 16px;
+  width: 100%;
+  max-width: 1440px;
+}
+
+@media screen and (min-width: 576px) {
+  .contact-us__container {
+    margin: 0 auto;
+    padding: 60px 40px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .contact-us__container {
+    padding: 80px 163px 35px;
+  }
 }
