@@ -7,7 +7,7 @@ const constants = {
   buttonSharePublication: document.querySelector('.publication__share'),
   buttonSharePublicationSelector: 'publication__share',
   sharePopupSelector: 'share-popup',
-  openedPopupSelector: 'popup_opened',
+  openedPopupSelector: 'share-popup_opened',
   submenus: menuElement.querySelectorAll('.menu__item_type_submenu'),
 };
 
