@@ -46,7 +46,7 @@
 @media (min-width: 922px) {
   .footer__container {
     grid-template-columns: 263px auto auto 210px;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-content: start;
     grid-template-areas:
       'logo logo logo logo'
@@ -54,7 +54,7 @@
       'text menufirst menusecond address'
       'text menufirst menusecond social'
       'madeby madeby madeby social';
-    padding: 80px 40px;
+    padding: 80px 40px 74px;
     font-size: 14px;
   }
 }

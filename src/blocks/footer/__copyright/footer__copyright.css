@@ -12,3 +12,11 @@
     margin-bottom: 30px;
   }
 }
+
+@media (min-width: 922px) {
+  .footer__copyright {
+    max-width: none;
+    margin-bottom: 24px;
+  }
+}
+

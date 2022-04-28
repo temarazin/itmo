@@ -9,3 +9,9 @@
     margin: 0;
   }
 }
+
+@media (min-width: 922px) {
+  .footer__text {
+    line-height: 1.35;
+  }
+}
