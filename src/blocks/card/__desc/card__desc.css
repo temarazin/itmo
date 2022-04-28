@@ -1,15 +1,28 @@
 .card__desc {
   font-size: 10px;
   line-height: 14px;
-  max-width: 121px;
   text-align: center;
-  margin: 0 auto;
+  margin: 0 auto 16px;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 768px) {
+  .card__desc {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .card__desc {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
   .card__desc {
     font-size: 14px;
     line-height: 20px;
-    max-width: 215px;
+    margin-bottom: 50px;
   }
 }

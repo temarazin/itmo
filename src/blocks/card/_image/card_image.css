@@ -1,4 +1,4 @@
-@media screen and (min-width: 765px) {
+@media screen and (min-width: 768px) {
   .card_image_project {
     background-image: linear-gradient(#fff, transparent),
       url(../../../images/lab/project-background.png);

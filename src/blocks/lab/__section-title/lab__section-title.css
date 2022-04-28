@@ -3,13 +3,13 @@
   color: #000d26;
 }
 
-@media screen and (min-width: 765px) {
+@media screen and (min-width: 768px) {
   .section-title.lab__section-title {
     margin-bottom: 30px;
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 992px) {
   .section-title.lab__section-title {
     margin-bottom: 60px;
   }

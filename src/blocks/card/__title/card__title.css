@@ -3,20 +3,29 @@
   line-height: 14px;
   font-weight: 600;
   text-align: center;
-  margin: 10px auto 0;
+  margin: 0 auto 16px;
 }
 
-@media screen and (min-width: 765px) {
+@media screen and (min-width: 768px) {
   .card__title {
     font-size: 12px;
-    line-height: 14px;
+    line-height: 16px;
+    margin-bottom: 20px;
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 992px) {
+  .card__title {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
   .card__title {
     font-size: 18px;
     line-height: 30px;
-    margin: 30px auto 0;
+    margin: 10px auto 50px;
   }
 }

@@ -2,13 +2,39 @@
   margin: 0 auto;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 140px);
   gap: 8px;
+  justify-content: center;
 }
 
-@media screen and (min-width: 765px) {
+@media screen and (min-width: 640px) {
   .cardlist {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 140px);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cardlist {
+    grid-template-columns: repeat(4, 150px);
+    gap: 25px;
+  }
+}
+
+@media screen and (min-width: 785px) {
+  .cardlist {
     gap: 30px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .cardlist {
+    grid-template-columns: repeat(4, 200px);
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  .cardlist {
+    grid-template-columns: repeat(4, 255px);
   }
 }

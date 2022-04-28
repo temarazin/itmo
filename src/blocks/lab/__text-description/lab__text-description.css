@@ -5,19 +5,25 @@
   margin: 0 auto;
 }
 
-@media screen and (min-width: 765px) {
+@media screen and (min-width: 576px) {
+  .lab__text-description {
+    margin-right: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
   .lab__text-description {
     margin-right: 30px;
     font-size: 14px;
     line-height: 20px;
-    max-width: 330px;
+    /* max-width: 330px; */
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .lab__text-description {
     font-size: 18px;
     line-height: 30px;
-    max-width: 540px;
+    /* max-width: 540px; */
   }
 }

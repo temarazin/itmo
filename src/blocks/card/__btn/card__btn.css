@@ -1,7 +1,7 @@
 .card__btn {
   padding: 0;
-  margin: 0 auto 10px;
-  width: 120px;
+  margin-top: auto;
+  width: 100%;
   height: 32px;
   border: 1px solid #001337;
   border-radius: 5px;
@@ -15,13 +15,19 @@
   cursor: pointer;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 992px) {
   .card__btn {
-    width: 215px;
     height: 40px;
     font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .card__btn {
+    height: 40px;
     font-size: 14px;
     line-height: 19px;
-    margin-bottom: 20px;
   }
 }

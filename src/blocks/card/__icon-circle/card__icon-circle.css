@@ -5,11 +5,29 @@
   background-color: white;
   box-shadow: 0px 2.24314px 11.2157px rgba(1, 54, 157, 0.15);
   display: flex;
+  margin: 0 auto 16px;
 }
 
-@media screen and (min-width: 1280px) {
+
+@media screen and (min-width: 768px) {
+  .card__icon-circle {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .card__icon-circle {
+    width: 55px;
+    height: 55px;
+    margin-bottom: 30px;
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
   .card__icon-circle {
     width: 70px;
     height: 70px;
+    margin-bottom: 50px;
   }
 }
