@@ -8,7 +8,6 @@
   margin: 0 auto 16px;
 }
 
-
 @media screen and (min-width: 768px) {
   .card__icon-circle {
     margin-bottom: 20px;
@@ -22,7 +21,6 @@
     margin-bottom: 30px;
   }
 }
-
 
 @media screen and (min-width: 1200px) {
   .card__icon-circle {
