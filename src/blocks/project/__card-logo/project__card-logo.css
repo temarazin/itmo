@@ -1,9 +1,17 @@
 /* Project */
-.project__card-logo {
-  margin-top: 10px;
-  margin-left: 10px;
-  padding: 0;
-  height: 26px;
+.sberbank, .gazprom {
+  grid-area: logo;
+  margin-bottom: 8px;
+}
 
+.sberbank {
+  width: 106px;
+  height: 26px;
+  fill: #fff;
+}
+
+.gazprom {
+  width: 60px;
+  height: 26px;
   fill: #fff;
 }

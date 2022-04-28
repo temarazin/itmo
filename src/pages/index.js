@@ -12,6 +12,7 @@ import {
   buttonStudyMagistr,
   cardStudyAspirant,
   cardStudyMagistr,
+  projectCards,
 } from '../utils/constants.js';
 import Popup from '../components/Popup.js';
 
@@ -63,4 +64,11 @@ buttonStudyMagistr.addEventListener('click', () => {
   buttonStudyMagistr.classList.add('study__button_active');
   cardStudyAspirant.classList.remove('study__card_visible');
   buttonStudyAspirant.classList.remove('study__button_active');
+});
+
+// project cards
+projectCards.addEventListener('click', (e) => {
+  if (e.target.closest('.project__card')) {
+    e.target.closest('.project__card').classList.toggle('project__card_active');
+  }
 });

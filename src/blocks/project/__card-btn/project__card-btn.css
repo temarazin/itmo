@@ -1,23 +1,17 @@
-/* Project */
 .project__card-btn {
-  margin: 0;
-  padding: 0;
-
-  width: 20px;
-  height: 20px;
-
-  background-color: #fff;
-  background-image: url(../../../images/ico/arrow-right-blue.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 12px 12px;
-  opacity: 1;
-  border: none;
-  border-radius: 50%;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   bottom: 10px;
   right: 10px;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 1;
+  border: none;
 }
 
 .project__card-btn:hover {

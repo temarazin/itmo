@@ -1,7 +1,8 @@
 /* Project */
 .project__container {
+  width: 100%;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 40px 16px;
-  max-width: 320px;
   box-sizing: border-box;
 }

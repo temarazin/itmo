@@ -1,16 +1,28 @@
-/* Project */
-.project__card {
-  margin: 0;
-  padding: 0;
-
-  width: 140px;
-  height: 130px;
-  background: #009fac;
-  border-radius: 5px;
-
+/*! Flex */
+/* .project__card {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-
+  width: 100%;
+  max-width: 140px;
+  height: 140px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: #009fac;
   position: relative;
+  cursor: default;
+} */
+
+/*! Grid */
+.project__card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: #009fac;
+  position: relative;
+  cursor: default;
 }
