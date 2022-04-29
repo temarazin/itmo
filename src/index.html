@@ -485,40 +485,46 @@
 
       <!-- footer -->
       <footer class="footer">
-        <a href="/" class="footer__logo">
-          <img src="<%=require('./images/logo-footer.png')%>" alt="логотип" class="footer__logo-image" />
-        </a>
-        <p class="footer__copyright">Информация ©&nbsp;2020 Университет ИТМО</p>
-        <nav class="footer-menu footer-menu_el_about">
-          <h2 class="footer-menu__title">О центре</h2>
-          <ul class="footer-menu__list">
-            <li class="footer-menu__item"><a href="#" class="footer-menu__link">О нас</a></li>
-            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Главная</a></li>
-            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Команда</a></li>
-            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Лаборатория</a></li>
-            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Контакты</a></li>
-          </ul>
-        </nav>
-        <nav class="footer-menu footer-menu_el_development">
-          <h2 class="footer-menu__title">Развитие</h2>
-          <ul class="footer-menu__list">
-            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Образование</a></li>
-            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Аспирантура</a></li>
-            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Магистратура</a></li>
-            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Публикации</a></li>
-            <li class="footer-menu__item"><a href="#" class="footer-menu__link">Проекты</a></li>
-          </ul>
-        </nav>
-        <div class="footer__contacts">
-          <p class="footer__contacts-city">г. Санкт-Петербург</p>
-          <p class="footer__contacts-address">199034, Санкт-Петербург, Биржевая&nbsp;линия, д.&nbsp;4, лит.&nbsp;М, ауд.&nbsp;302С</p>
-          <p class="footer__contacts-phones">
-            <a href="tel:+78123376490" class="footer__contacts-phone">+7 (812) 337-64-90</a>
-            <a href="tel:+78123376494" class="footer__contacts-phone">+7 (812) 337-64-94</a>
+        <div class="footer__container">
+          <a href="/" class="footer__logo">
+            <img src="<%=require('./images/logo-footer.png')%>" alt="логотип" class="footer__logo-image" />
+          </a>
+          <p class="footer__copyright">Информация ©&nbsp;2020 Университет ИТМО</p>
+          <p class="footer__text">
+            Национальный центр когнитивных разработок – центр национальной технологической инициативы (НТИ), получивший государственную поддержку по направлению «Технологии машинного обучения и когнитивные технологии». Инфраструктурная основа взаимодействия научных, образовательных и промышленных
+            организаций
           </p>
-          <p class="footer__contacts-email">
-            <a href="mailto:anna.lutsenko@itmo.ru" class="footer__contacts-email-link">anna.lutsenko@itmo.ru</a>
-          </p>
+          <nav class="footer-menu footer-menu_el_about">
+            <h2 class="footer-menu__title">О центре</h2>
+            <ul class="footer-menu__list">
+              <li class="footer-menu__item"><a href="#" class="footer-menu__link">О нас</a></li>
+              <li class="footer-menu__item"><a href="#" class="footer-menu__link">Главная</a></li>
+              <li class="footer-menu__item"><a href="#" class="footer-menu__link">Команда</a></li>
+              <li class="footer-menu__item"><a href="#" class="footer-menu__link">Лаборатория</a></li>
+              <li class="footer-menu__item"><a href="#" class="footer-menu__link">Контакты</a></li>
+            </ul>
+          </nav>
+          <nav class="footer-menu footer-menu_el_development">
+            <h2 class="footer-menu__title">Развитие</h2>
+            <ul class="footer-menu__list">
+              <li class="footer-menu__item"><a href="#" class="footer-menu__link">Образование</a></li>
+              <li class="footer-menu__item"><a href="#" class="footer-menu__link">Аспирантура</a></li>
+              <li class="footer-menu__item"><a href="#" class="footer-menu__link">Магистратура</a></li>
+              <li class="footer-menu__item"><a href="#" class="footer-menu__link">Публикации</a></li>
+              <li class="footer-menu__item"><a href="#" class="footer-menu__link">Проекты</a></li>
+            </ul>
+          </nav>
+          <div class="footer__contacts">
+            <p class="footer__contacts-city">г. Санкт-Петербург</p>
+            <p class="footer__contacts-address">199034, Санкт-Петербург, Биржевая&nbsp;линия, д.&nbsp;4, лит.&nbsp;М, ауд.&nbsp;302С</p>
+            <p class="footer__contacts-phones">
+              <a href="tel:+78123376490" class="footer__contacts-phone">+7 (812) 337-64-90</a>
+              <a href="tel:+78123376494" class="footer__contacts-phone">+7 (812) 337-64-94</a>
+            </p>
+            <p class="footer__contacts-email">
+              <a href="mailto:anna.lutsenko@itmo.ru" class="footer__contacts-email-link">anna.lutsenko@itmo.ru</a>
+            </p>
+          </div>
           <ul class="social-links footer__social">
             <li class="social-links__item">
               <a href="#" class="social-links__link social-links__link_site_vk" target="_blank">
@@ -570,8 +576,8 @@
               </a>
             </li>
           </ul>
+          <p class="footer__madeby">Сделано студентами Яндекс.Практикум</p>
         </div>
-        <p class="footer__madeby">Сделано студентами Яндекс.Практикум</p>
       </footer>
     </div>
     <template class="publication-template"> <!--Шаблон для карточек публикации-->> </template>

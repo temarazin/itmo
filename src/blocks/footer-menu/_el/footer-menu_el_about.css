@@ -1,3 +1,10 @@
 .footer-menu_el_about {
   grid-area: menufirst;
+  margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+  .footer-menu_el_about {
+    margin: 0;
+  }
 }

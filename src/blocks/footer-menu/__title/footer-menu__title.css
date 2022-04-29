@@ -1,7 +1,7 @@
 .footer-menu__title {
   margin: 0 0 8px;
+  font-size: inherit;
   font-weight: 600;
-  font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.0588372px;
 }

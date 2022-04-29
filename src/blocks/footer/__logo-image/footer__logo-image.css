@@ -4,3 +4,10 @@
   object-fit: contain;
   object-position: left;
 }
+
+@media (min-width: 768px) {
+  .footer__logo-image {
+    width: 150px;
+    height: 54px;
+  }
+}
