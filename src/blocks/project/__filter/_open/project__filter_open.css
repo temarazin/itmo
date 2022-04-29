@@ -1,0 +1,11 @@
+.project__filter_open .project__filter-subtitle {
+  padding-left: 16px;
+}
+
+.project__filter_open .project__filter-btn {
+  transform: rotate(-180deg);
+}
+
+.project__filter_open ~ .project__filter-menu {
+  display: block;
+}

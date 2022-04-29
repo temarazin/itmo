@@ -98,13 +98,13 @@
 @import url(../blocks/pin-slider/__dot/_active/pin-slider__dot_active.css);
 
 /* Select Filter */
-@import url(../blocks/select-filter/select-filter.css);
+/* @import url(../blocks/select-filter/select-filter.css);
 @import url(../blocks/select-filter/_open/select-filter_open.css);
 @import url(../blocks/select-filter/__wrapper/select-filter__wrapper.css);
 @import url(../blocks/select-filter/__subtitle/select-filter__subtitle.css);
 @import url(../blocks/select-filter/__btn-list/select-filter__btn-list.css);
 @import url(../blocks/select-filter/__menu/select-filter__menu.css);
-@import url(../blocks/select-filter/__item/select-filter__item.css);
+@import url(../blocks/select-filter/__item/select-filter__item.css); */
 
 /*** Sections ***/
 
@@ -142,7 +142,15 @@
 @import url(../blocks/project/project.css);
 @import url(../blocks/project/__container/project__container.css);
 @import url(../blocks/project/__title/project__title.css);
+
 @import url(../blocks/project/__filter/project__filter.css);
+@import url(../blocks/project/__filter/_open/project__filter_open.css);
+@import url(../blocks/project/__filter-wrapper/project__filter-wrapper.css);
+@import url(../blocks/project/__filter-subtitle/project__filter-subtitle.css);
+@import url(../blocks/project/__filter-btn/project__filter-btn.css);
+@import url(../blocks/project/__filter-menu/project__filter-menu.css);
+@import url(../blocks/project/__filter-item/project__filter-item.css);
+
 @import url(../blocks/project/__cards/project__cards.css);
 @import url(../blocks/project/__card/project__card.css);
 @import url(../blocks/project/__card/_active/project__card_active.css);

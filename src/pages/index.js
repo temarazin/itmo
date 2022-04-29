@@ -70,8 +70,8 @@ buttonStudyMagistr.addEventListener('click', () => {
 
 // handle select item
 const handleSelectItem = (e) => {
-  if (e.target.classList.contains('select-filter__item')) {
-    document.querySelector('.select-filter__subtitle').textContent = e.target.textContent;
+  if (e.target.classList.contains('project__filter-item')) {
+    document.querySelector('.project__filter-subtitle').textContent = e.target.textContent;
     // eslint-disable-next-line no-use-before-define
     selectClose();
   }
@@ -79,16 +79,28 @@ const handleSelectItem = (e) => {
 
 // open select
 const selectOpen = () => {
-  select.classList.add('select-filter_open');
+  select.classList.add('project__filter_open');
   // addEL click select item
   selectItems.addEventListener('click', handleSelectItem);
+  // addEL close select click overlay
+  // eslint-disable-next-line no-use-before-define
+  page.addEventListener('click', selectOverlayClose);
+  // addEL close select button
+  // eslint-disable-next-line no-use-before-define
+  document.addEventListener('keydown', selectButtonClose);
 };
 
 // close select
 const selectClose = () => {
-  select.classList.remove('select-filter_open');
+  select.classList.remove('project__filter_open');
   // removeEL click select item
   selectItems.removeEventListener('click', handleSelectItem);
+  // addEL close select click overlay
+  // eslint-disable-next-line no-use-before-define
+  page.removeEventListener('click', selectOverlayClose);
+  // addEL close select button
+  // eslint-disable-next-line no-use-before-define
+  document.removeEventListener('keydown', selectButtonClose);
 };
 
 // close select button
@@ -100,7 +112,7 @@ const selectButtonClose = (e) => {
 
 // toggle select
 const toggleSelect = () => {
-  if (select.classList.contains('select-filter_open')) {
+  if (select.classList.contains('project__filter_open')) {
     selectClose();
   } else {
     selectOpen();
@@ -109,14 +121,10 @@ const toggleSelect = () => {
 
 // close select overlay
 const selectOverlayClose = (e) => {
-  if (!e.target.closest('.select-filter')) {
+  if (!e.target.closest('.project__filter')) {
     selectClose();
   }
 };
 
 // addEL select
 select.addEventListener('click', toggleSelect);
-// addEL close select click overlay
-page.addEventListener('click', selectOverlayClose);
-// addEL close select button
-document.addEventListener('keydown', selectButtonClose);

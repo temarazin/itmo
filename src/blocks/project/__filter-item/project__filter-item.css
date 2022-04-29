@@ -1,9 +1,10 @@
 /* Select-filter */
-.select-filter__item {
+.project__filter-item {
   padding: 10px 16px;
   line-height: 1.71;
+  cursor: pointer;
 }
 
-.select-filter__item:active {
+.project__filter-item:hover {
   background-color: #001337;
 }

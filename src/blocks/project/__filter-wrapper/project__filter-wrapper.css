@@ -1,5 +1,4 @@
-/* Select-filter */
-.select-filter__wrapper {
+.project__filter-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;

@@ -12,5 +12,5 @@ export const buttonStudyAspirant = document.querySelector('.study__button_type_a
 export const buttonStudyMagistr = document.querySelector('.study__button_type_magistr');
 export const cardStudyAspirant = document.querySelector('.study__card_type_aspirant');
 export const cardStudyMagistr = document.querySelector('.study__card_type_magistr');
-export const select = document.querySelector('.select-filter__wrapper');
-export const selectItems = document.querySelector('.select-filter__menu');
+export const select = document.querySelector('.project__filter-wrapper');
+export const selectItems = document.querySelector('.project__filter-menu');

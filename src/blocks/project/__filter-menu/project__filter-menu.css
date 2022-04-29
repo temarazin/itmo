@@ -1,5 +1,5 @@
 /* Select-filter */
-.select-filter__menu {
+.project__filter-menu {
   position: absolute;
   top: 45px;
   left: 0;
@@ -11,7 +11,5 @@
   box-sizing: border-box;
   list-style-type: none;
   background: #000d26;
-  visibility: hidden;
-  opacity: 0;
-  transition: 0.3s;
+  display: none;
 }

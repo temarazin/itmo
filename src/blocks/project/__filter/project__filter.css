@@ -1,4 +1,5 @@
-/* Project */
 .project__filter {
   margin: 20px 0;
+  width: 100%;
+  position: relative;
 }
