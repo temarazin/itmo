@@ -1,38 +1,27 @@
 import './index.css';
-import {
-  menu,
-  submenus,
-  // menuItems,
-  buttonMenu,
-  buttonClose,
-  buttonSharePublication,
-  buttonSharePublicationSelector,
-  sharePopupSelector,
-  buttonStudyAspirant,
-  buttonStudyMagistr,
-  cardStudyAspirant,
-  cardStudyMagistr,
-  projectCards,
-} from '../utils/constants.js';
+import constants from '../utils/constants.js';
 import Popup from '../components/Popup.js';
 
-const sharePopup = new Popup(sharePopupSelector, buttonSharePublicationSelector);
+const sharePopup = new Popup(
+  constants.sharePopupSelector,
+  constants.buttonSharePublicationSelector
+);
 
-buttonMenu.addEventListener('click', openMenu);
-buttonClose.addEventListener('click', closeMenu);
-submenus.forEach((submenu) => submenu.addEventListener('click', (e) => toggleSubmenu(e)));
-buttonSharePublication.addEventListener('click', openPublicationPopup);
+constants.buttonMenu.addEventListener('click', openMenu);
+constants.buttonClose.addEventListener('click', closeMenu);
+constants.submenus.forEach((submenu) => submenu.addEventListener('click', (e) => toggleSubmenu(e)));
+constants.buttonSharePublication.addEventListener('click', openPublicationPopup);
 
 function openMenu() {
-  menu.classList.add('header__menu_open');
-  buttonMenu.style.display = 'none';
-  buttonClose.classList.add('header__close_open');
+  constants.menu.classList.add('header__menu_open');
+  constants.buttonMenu.style.display = 'none';
+  constants.buttonClose.classList.add('header__close_open');
 }
 
 function closeMenu() {
-  menu.classList.remove('header__menu_open');
-  buttonMenu.style.display = 'flex';
-  buttonClose.classList.remove('header__close_open');
+  constants.menu.classList.remove('header__menu_open');
+  constants.buttonMenu.style.display = 'flex';
+  constants.buttonClose.classList.remove('header__close_open');
   closeSubmenu();
 }
 
@@ -52,22 +41,22 @@ function openPublicationPopup() {
 }
 
 // study
-buttonStudyAspirant.addEventListener('click', () => {
-  cardStudyAspirant.classList.add('study__card_visible');
-  buttonStudyAspirant.classList.add('study__button_active');
-  buttonStudyMagistr.classList.remove('study__button_active');
-  cardStudyMagistr.classList.remove('study__card_visible');
+constants.buttonStudyAspirant.addEventListener('click', () => {
+  constants.cardStudyAspirant.classList.add('study__card_visible');
+  constants.buttonStudyAspirant.classList.add('study__button_active');
+  constants.buttonStudyMagistr.classList.remove('study__button_active');
+  constants.cardStudyMagistr.classList.remove('study__card_visible');
 });
 
-buttonStudyMagistr.addEventListener('click', () => {
-  cardStudyMagistr.classList.add('study__card_visible');
-  buttonStudyMagistr.classList.add('study__button_active');
-  cardStudyAspirant.classList.remove('study__card_visible');
-  buttonStudyAspirant.classList.remove('study__button_active');
+constants.buttonStudyMagistr.addEventListener('click', () => {
+  constants.cardStudyMagistr.classList.add('study__card_visible');
+  constants.buttonStudyMagistr.classList.add('study__button_active');
+  constants.cardStudyAspirant.classList.remove('study__card_visible');
+  constants.buttonStudyAspirant.classList.remove('study__button_active');
 });
 
 // project cards
-projectCards.addEventListener('click', (e) => {
+constants.projectCards.addEventListener('click', (e) => {
   if (e.target.closest('.project__card')) {
     e.target.closest('.project__card').classList.toggle('project__card_active');
   }

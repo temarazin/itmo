@@ -1,14 +1,19 @@
-export const menu = document.querySelector('.menu');
-export const menuItems = menu.querySelector('.menu__list');
-export const buttonMenu = document.querySelector('.burger');
-export const buttonClose = document.querySelector('.close');
-export const buttonSharePublication = document.querySelector('.publication__share');
-export const buttonSharePublicationSelector = 'publication__share';
-export const sharePopupSelector = 'share-popup';
-export const submenus = menu.querySelectorAll('.menu__item_type_submenu');
-export const openedPopupSelector = 'share-popup_opened';
-export const buttonStudyAspirant = document.querySelector('.study__button_type_aspirant');
-export const buttonStudyMagistr = document.querySelector('.study__button_type_magistr');
-export const cardStudyAspirant = document.querySelector('.study__card_type_aspirant');
-export const cardStudyMagistr = document.querySelector('.study__card_type_magistr');
-export const projectCards = document.querySelector('.project__cards');
+const menuElement = document.querySelector('.menu');
+const constants = {
+  menu: menuElement,
+  menuItems: menuElement.querySelector('.menu__list'),
+  buttonMenu: document.querySelector('.burger'),
+  buttonClose: document.querySelector('.close'),
+  buttonSharePublication: document.querySelector('.publication__share'),
+  buttonSharePublicationSelector: 'publication__share',
+  sharePopupSelector: 'share-popup',
+  openedPopupSelector: 'share-popup_opened',
+  submenus: menuElement.querySelectorAll('.menu__item_type_submenu'),
+  buttonStudyAspirant: document.querySelector('.study__button_type_aspirant'),
+  buttonStudyMagistr: document.querySelector('.study__button_type_magistr'),
+  cardStudyAspirant: document.querySelector('.study__card_type_aspirant'),
+  cardStudyMagistr: document.querySelector('.study__card_type_magistr'),
+  projectCards: document.querySelector('.project__cards'),
+};
+
+export default constants;
