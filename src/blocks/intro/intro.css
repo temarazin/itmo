@@ -3,3 +3,15 @@
   background-color: #001337;
   padding: 0 16px;
 }
+
+@media screen and (min-width: 576px) {
+  .intro {
+    padding: 0 39px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .intro {
+    padding: 0;
+  }
+}

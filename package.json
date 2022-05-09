@@ -4,6 +4,7 @@
   "main": "index.js",
   "author": "praktikum team",
   "git repository": "https://github.com/temarazin/itmo",
+  "homepage": "https://irina-tim.github.io/mesto-react/",
   "license": "ISC",
   "scripts": {
     "test": "editorconfig-checker ./src && prettier --check ./src && eslint ./src",

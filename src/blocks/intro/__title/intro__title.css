@@ -6,3 +6,18 @@
   color: #fff;
   font-weight: 400;
 }
+
+@media screen and (min-width: 576px) {
+  .intro__title {
+    font-size: 54px;
+    line-height: 68px;
+    max-width: 445px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .intro__title {
+    margin-left: calc((830 / 1440) * 100%);
+    align-self: flex-start;
+  }
+}

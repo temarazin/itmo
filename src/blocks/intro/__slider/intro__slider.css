@@ -1,3 +1,15 @@
 .intro__slider {
   margin: 20px 0 50px;
 }
+
+@media screen and (min-width: 576px) {
+  .intro__slider {
+    margin-top: 47px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .intro__slider {
+    margin-top: 31px;
+  }
+}
