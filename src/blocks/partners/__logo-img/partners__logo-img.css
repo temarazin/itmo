@@ -9,12 +9,6 @@
   }
 }
 
-@media screen and (min-width: 992px) {
-  .partners__logo-img {
-    width: 80%;
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .partners__logo-img {
     width: clamp(100px, 145px, 175px);
