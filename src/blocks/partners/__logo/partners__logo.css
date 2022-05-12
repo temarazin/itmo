@@ -7,3 +7,21 @@
   justify-content: center;
   /* height: clamp(20px, auto, 30px); */
 }
+
+.partners__logo:nth-child(1),
+.partners__logo:nth-child(2) {
+  display: none;
+}
+
+@media screen and (min-width: 576px) {
+  .partners__logo {
+    max-height: 50px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .partners__logo:nth-child(1),
+  .partners__logo:nth-child(2) {
+    display: flex;
+  }
+}

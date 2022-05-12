@@ -14,6 +14,9 @@
     line-height: 20px;
     letter-spacing: 0.1px;
   }
+  .section-subtitle:not(:last-child) {
+    margin-bottom: 20px;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -24,5 +27,8 @@
   }
   .contact-us__container .section-subtitle {
     justify-self: center;
+  }
+  .section-subtitle:not(:last-child) {
+    margin-bottom: 26px;
   }
 }

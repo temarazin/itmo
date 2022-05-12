@@ -10,3 +10,21 @@
   align-items: flex-end;
   list-style-type: none;
 }
+
+@media screen and (min-width: 576px) {
+  .partners__logos {
+    margin: 60px auto;
+    max-width: 690px;
+    align-items: center;
+    row-gap: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .partners__logos {
+    max-width: 1100px;
+    margin: 100px auto 80px;
+    row-gap: 50px;
+    column-gap: 50px;
+  }
+}
