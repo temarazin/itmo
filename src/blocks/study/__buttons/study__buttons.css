@@ -9,3 +9,19 @@
   width: 100%;
   box-sizing: border-box;
 }
+
+@media screen and (min-width: 768px) {
+  .study__buttons {
+    border-radius: 12px;
+    gap: 42px;
+    max-width: 450px;
+    padding-left: 40px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .study__buttons {
+    gap: 57px;
+    max-width: 540px;
+  }
+}

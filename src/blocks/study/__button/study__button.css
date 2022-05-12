@@ -15,3 +15,21 @@
   border: none;
   background-color: transparent;
 }
+
+@media screen and (min-width: 768px) {
+  .study__button {
+    font-size: 14px;
+    line-height: 19px;
+    border-radius: 10px;
+    height: 42px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .study__button {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    height: 60px;
+  }
+}

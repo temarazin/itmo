@@ -6,3 +6,19 @@
   font-weight: 400;
   line-height: 16px;
 }
+
+@media screen and (min-width: 768px) {
+  .study__list {
+    line-height: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .study__list {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    margin-bottom: 38px;
+    margin-left: 10px;
+  }
+}

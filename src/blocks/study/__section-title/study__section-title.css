@@ -1,3 +1,15 @@
 .study__section-title {
   margin-bottom: 20px;
 }
+
+@media screen and (min-width: 768px) {
+  .study__section-title {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .study__section-title {
+    margin-bottom: 25px;
+  }
+}

@@ -1,4 +1,19 @@
 .study {
   background-color: #009fac;
   padding: 40px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .study {
+    padding: 60px 39px 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .study {
+    padding: 83px 39px 81px;
+  }
 }
