@@ -1,5 +1,4 @@
 .partners__text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  max-width: 920px;
+  margin: 0 auto;
 }
