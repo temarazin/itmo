@@ -1,3 +1,10 @@
 .footer__social {
+  grid-area: social;
   margin: 20px 0 0;
+}
+
+@media (min-width: 922px) {
+  .footer__social {
+    margin-top: 57px;
+  }
 }

@@ -2,3 +2,15 @@
   width: 100%;
   width: clamp(46px, 80px, 150px);
 }
+
+@media screen and (min-width: 576px) {
+  .partners__logo-img {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .partners__logo-img {
+    width: clamp(100px, 145px, 175px);
+  }
+}

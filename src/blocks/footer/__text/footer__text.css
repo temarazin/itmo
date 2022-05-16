@@ -1,0 +1,17 @@
+.footer__text {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .footer__text {
+    grid-area: text;
+    display: block;
+    margin: 0;
+  }
+}
+
+@media (min-width: 922px) {
+  .footer__text {
+    line-height: 1.35;
+  }
+}

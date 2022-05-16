@@ -2,3 +2,15 @@
   background-color: #001337;
   padding: 197px 16px 40px;
 }
+
+@media screen and (min-width: 576px) {
+  .partners {
+    padding: 280px 39px 4px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .partners {
+    padding: 385px 165px 1px;
+  }
+}
