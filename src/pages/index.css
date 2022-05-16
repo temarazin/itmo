@@ -230,6 +230,8 @@
 @import url(../blocks/footer/__social/footer__social.css);
 @import url(../blocks/footer/__madeby/footer__madeby.css);
 
+@import url(../blocks/swiper/swiper.css);
+
 /*** Pages ***/
 
 /* Page */
