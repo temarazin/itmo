@@ -9,6 +9,9 @@
 /* Close */
 @import url(../blocks/close/close.css);
 
+/* arrow */
+@import url(../blocks/arrow/arrow.css);
+
 /* Button */
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_theme/button_theme_white-blue.css);
@@ -148,8 +151,8 @@
 @import url(../blocks/project/__cards/project__cards.css);
 @import url(../blocks/project/__card/project__card.css);
 @import url(../blocks/project/__card/_active/project__card_active.css);
-@import url(../blocks/project/__card/_active-image/project__card_active-image_gazprom.css);
-@import url(../blocks/project/__card/_active-image/project__card_active-image_sberbank.css);
+@import url(../blocks/project/__card/_type/project__card_type_gazprom.css);
+@import url(../blocks/project/__card/_type/project__card_type_sberbank.css);
 @import url(../blocks/project/__card-logo/project__card-logo.css);
 @import url(../blocks/project/__card-text/project__card-text.css);
 @import url(../blocks/project/__card-btn/project__card-btn.css);

@@ -41,16 +41,23 @@ function openPublicationPopup() {
 }
 
 // study
-buttonStudyAspirant.addEventListener('click', () => {
-  cardStudyAspirant.classList.add('study__card_visible');
-  buttonStudyAspirant.classList.add('study__button_active');
-  buttonStudyMagistr.classList.remove('study__button_active');
-  cardStudyMagistr.classList.remove('study__card_visible');
+constants.buttonStudyAspirant.addEventListener('click', () => {
+  constants.cardStudyAspirant.classList.add('study__card_visible');
+  constants.buttonStudyAspirant.classList.add('study__button_active');
+  constants.buttonStudyMagistr.classList.remove('study__button_active');
+  constants.cardStudyMagistr.classList.remove('study__card_visible');
 });
 
-buttonStudyMagistr.addEventListener('click', () => {
-  cardStudyMagistr.classList.add('study__card_visible');
-  buttonStudyMagistr.classList.add('study__button_active');
-  cardStudyAspirant.classList.remove('study__card_visible');
-  buttonStudyAspirant.classList.remove('study__button_active');
+constants.buttonStudyMagistr.addEventListener('click', () => {
+  constants.cardStudyMagistr.classList.add('study__card_visible');
+  constants.buttonStudyMagistr.classList.add('study__button_active');
+  constants.cardStudyAspirant.classList.remove('study__card_visible');
+  constants.buttonStudyAspirant.classList.remove('study__button_active');
+});
+
+// project cards
+constants.projectCards.addEventListener('click', (e) => {
+  if (e.target.closest('.project__card')) {
+    e.target.closest('.project__card').classList.toggle('project__card_active');
+  }
 });

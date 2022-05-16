@@ -1,27 +1,68 @@
-/* Project */
 .project__card_active {
-  width: 288px;
+  grid-column: auto / span 2;
   flex-direction: row;
+  justify-content: space-between;
+  /*! max-width: 288px; */
+  padding: 16px;
 }
 
-.project__card_active .project__card-logo {
-  margin: 16px 16px 0 0;
+.project__card_active .sberbank,
+.project__card_active .gazprom {
   fill: #001337;
   order: 1;
 }
 
 .project__card_active .project__card-text {
-  margin: 16px 24px 16px 16px;
-  width: 172px;
-  max-height: 98px;
-  color: #001337;
   order: 0;
+  max-width: 172px;
+  color: #001337;
+  -webkit-line-clamp: inherit; /* Число отображаемых строк */
 }
 
 .project__card_active .project__card-btn {
   background-color: #009fac;
-  background-image: url(../../../../images/ico/arrow-left.svg);
-
   bottom: 16px;
   right: 16px;
+}
+
+.project__card_active .arrow {
+  transform: rotate(180deg);
+}
+
+
+/** gazprom card active */
+.project__card_active.project__card_type_gazprom {
+  background: #e0f0ff url(../../../../images/projects/project-gazprom.png) no-repeat right bottom/contain;
+  color: #001337;
+}
+
+.project__card_active.project__card_type_gazprom .gazprom {
+  fill: #001337;
+}
+
+.project__card_active.project__card_type_gazprom .project__card-btn {
+  background-color: #009fac;
+}
+
+.project__card_active.project__card_type_gazprom .arrow {
+  stroke: #E0F0FF;
+}
+
+
+/** sberbamk card active */
+.project__card_active.project__card_type_sberbank {
+  background: #e0f0ff url(../../../../images/projects/project-snerbank.png) no-repeat right bottom/contain;
+  color: #001337;
+}
+
+.project__card_active.project__card_type_sberbank .sberbank {
+  fill: #001337;
+}
+
+.project__card_active.project__card_type_sberbank .project__card-btn {
+  background-color: #009fac;
+}
+
+.project__card_active.project__card_type_sberbank .arrow {
+  stroke: #E0F0FF;
 }
