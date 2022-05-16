@@ -7,20 +7,13 @@
   justify-content: center;
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 576px) {
   .cardlist {
-    grid-template-columns: repeat(4, 140px);
+    grid-template-columns: repeat(4, minmax(125px, 150px));
   }
 }
 
 @media screen and (min-width: 768px) {
-  .cardlist {
-    grid-template-columns: repeat(4, 150px);
-    gap: 25px;
-  }
-}
-
-@media screen and (min-width: 785px) {
   .cardlist {
     gap: 30px;
   }
