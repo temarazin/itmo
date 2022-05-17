@@ -22,6 +22,7 @@
     line-height: 19px;
     border-radius: 10px;
     height: 42px;
+    max-width: none;
   }
 }
 

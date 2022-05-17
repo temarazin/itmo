@@ -19,5 +19,7 @@
 @media screen and (min-width: 1200px) {
   .study__img {
     max-height: 364px;
+    width: 98%;
+    margin-right: 10px;
   }
 }

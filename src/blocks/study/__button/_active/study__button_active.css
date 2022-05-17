@@ -7,13 +7,13 @@
 
 @media screen and (min-width: 768px) {
   .study__button_active {
-    padding: 0 116px;
+    max-width: 225px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .study__button_active {
-    margin-right: -23px;
-    padding: 0 140px;
+    max-width: 280px;
+    width: 110%;
   }
 }
