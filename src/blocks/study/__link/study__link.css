@@ -11,5 +11,13 @@
 @media screen and (min-width: 768px) {
   .study__link {
     margin-top: 20px;
+    max-width: 120px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .study__link {
+    margin-top: 20px;
+    max-width: 145px;
   }
 }

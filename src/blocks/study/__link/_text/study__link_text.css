@@ -12,6 +12,12 @@
     font-size: 14px;
     line-height: 19px;
   }
+
+  .study__link_text:hover,
+  .study__link_text:active {
+    font-weight: 700;
+    margin-right: 16px;
+  }
 }
 
 @media screen and (min-width: 1200px) {

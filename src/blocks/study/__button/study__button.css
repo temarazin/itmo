@@ -23,6 +23,7 @@
     border-radius: 10px;
     height: 42px;
     max-width: none;
+    cursor: pointer;
   }
 }
 

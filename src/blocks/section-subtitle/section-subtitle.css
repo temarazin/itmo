@@ -14,15 +14,21 @@
     line-height: 20px;
     letter-spacing: 0.1px;
   }
+  .section-subtitle:not(:last-child) {
+    margin-bottom: 20px;
+  }
 }
 
 @media screen and (min-width: 992px) {
   .section-subtitle {
     font-size: 18px;
     line-height: 30px;
-    max-width: 920px;
   }
   .contact-us__container .section-subtitle {
     justify-self: center;
+    max-width: 920px;
+  }
+  .section-subtitle:not(:last-child) {
+    margin-bottom: 26px;
   }
 }
