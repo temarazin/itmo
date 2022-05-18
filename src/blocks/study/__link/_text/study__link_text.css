@@ -5,4 +5,19 @@
   line-height: 16px;
   letter-spacing: 0.06px;
   margin-right: 12px;
+  transition: all .1s ease;
+}
+
+@media screen and (min-width: 768px) {
+  .study__link_text {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .study__link_text {
+    font-size: 18px;
+    line-height: 30px;
+  }
 }

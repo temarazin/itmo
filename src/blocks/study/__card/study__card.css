@@ -6,4 +6,25 @@
   flex-direction: column;
   margin-bottom: 16px;
   padding: 16px;
+  max-width: 520px;
+}
+
+@media screen and (min-width: 768px) {
+  .study__card {
+    flex-direction: row-reverse;
+    margin: 24px 0 30px;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 650px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .study__card {
+    margin: 43px 0px 41px;
+    min-width: 1128px;
+    height: 391px;
+    padding: 30px 20px 10px;
+    margin-bottom: 32px;
+  }
 }

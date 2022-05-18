@@ -1,3 +1,9 @@
 .study__section-subtitle {
   margin-bottom: 20px;
 }
+
+@media screen and (min-width: 992px) {
+  .study__section-subtitle {
+    max-width: 920px;
+  }
+}

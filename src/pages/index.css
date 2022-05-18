@@ -162,6 +162,7 @@
 @import url(../blocks/study/__card/_type/study__card_type_aspirant.css);
 @import url(../blocks/study/__card/_type/study__card_type_magistr.css);
 @import url(../blocks/study/__card/_visible/study__card_visible.css);
+@import url(../blocks/study/__content/study__content.css);
 @import url(../blocks/study/__img/study__img.css);
 @import url(../blocks/study/__title/study__title.css);
 @import url(../blocks/study/__list/study__list.css);

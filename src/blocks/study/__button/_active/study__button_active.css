@@ -4,3 +4,16 @@
   font-weight: 600;
   max-width: 149px;
 }
+
+@media screen and (min-width: 768px) {
+  .study__button_active {
+    max-width: 225px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .study__button_active {
+    max-width: 280px;
+    width: 110%;
+  }
+}
