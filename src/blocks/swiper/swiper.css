@@ -1,0 +1,37 @@
+.swiper {
+  overflow: visible;
+}
+
+.swiper-pagination-bullet {
+  margin: 4px;
+  width: 4px;
+  height: 4px;
+  background-color: #fff;
+  list-style: none;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets {
+  bottom: -15px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: none;
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: block;
+  }
+}
