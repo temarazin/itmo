@@ -1,8 +1,39 @@
 .card__title {
   font-size: 10px;
-  line-height: 13.62px;
+  line-height: 14px;
+  min-height: 28px;
   font-weight: 600;
-  max-width: 121px;
   text-align: center;
-  margin: 10px auto 16px;
+  margin: 0 auto 16px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  white-space: pre-line;
+}
+
+@media screen and (min-width: 768px) {
+  .card__title {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .card__title {
+    font-size: 14px;
+    line-height: 20px;
+    min-height: 40px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .card__title {
+    font-size: 18px;
+    line-height: 30px;
+    min-height: 60px;
+    margin: 10px auto 50px;
+  }
 }

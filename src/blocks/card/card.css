@@ -1,13 +1,31 @@
 .card {
   color: #001337;
   list-style-type: none;
-  width: 140px;
-  height: 224px;
+  height: 100%;
+  padding: 10px;
   background-color: white;
   border-radius: 5.46px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  justify-self: center;
+  background-size: contain;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    padding: 12px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .card {
+    padding: 15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .card {
+    padding: 20px;
+  }
 }

@@ -1,0 +1,9 @@
+.lab__paragraph_first {
+  margin: 20px 0 0;
+}
+
+@media screen and (min-width: 576px) {
+  .lab__paragraph_first {
+    margin: 0 auto 20px;
+  }
+}
