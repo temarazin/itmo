@@ -1,0 +1,25 @@
+.intro__subtitle {
+  margin: 16px 0 0;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.35;
+}
+
+@media screen and (min-width: 576px) {
+  .intro__subtitle {
+    margin: 33px 0 0;
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 435px;
+    letter-spacing: 0.1px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .intro__subtitle {
+    margin-left: calc((830 / 1440) * 100%);
+    font-size: 20px;
+    line-height: 30px;
+    align-self: flex-start;
+  }
+}

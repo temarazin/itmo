@@ -8,10 +8,19 @@
   background-size: 150%;
   background-repeat: no-repeat;
   background-position: 90% top;
+  transform: scale(-1, 1);
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 576px) {
   .intro__background-image {
-    transform: scale(-1, 1);
+    background-position: 50% top;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .intro__background-image {
+    transform: scale(1, 1);
+    background-position: top left;
+    background-size: 90%;
   }
 }
